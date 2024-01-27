@@ -105,7 +105,7 @@ msgid "You have empty required fields. Are you sure you wish to continue?"
 msgstr ""
 
 #: base/siteorigin-widget.class.php:633
-msgid "Table header"
+msgid "Table Header"
 msgstr ""
 
 #: base/siteorigin-widget.class.php:634
@@ -1133,7 +1133,7 @@ msgstr ""
 msgid "Required Field"
 msgstr ""
 
-#: widgets/contact/contact.php:197, widgets/contact/contact.php:204, widgets/contact/contact.php:1351
+#: widgets/contact/contact.php:197, widgets/contact/contact.php:204, widgets/contact/contact.php:1377
 msgid "Required field"
 msgstr ""
 
@@ -1477,64 +1477,64 @@ msgstr ""
 msgid "After submission, scroll the user to the top of the contact form."
 msgstr ""
 
-#: widgets/contact/contact.php:1363
+#: widgets/contact/contact.php:1389
 msgid "Invalid email address."
 msgstr ""
 
-#: widgets/contact/contact.php:1389
+#: widgets/contact/contact.php:1415
 msgid "Invalid phone number. It should contain at least three digits."
 msgstr ""
 
-#: widgets/contact/contact.php:1400
+#: widgets/contact/contact.php:1426
 msgid "Invalid number."
 msgstr ""
 
-#: widgets/contact/contact.php:1483
+#: widgets/contact/contact.php:1509
 msgid "Error sending email, please try again later."
 msgstr ""
 
-#: widgets/contact/contact.php:1510
+#: widgets/contact/contact.php:1536
 msgid "A valid email is required"
 msgstr ""
 
-#: widgets/contact/contact.php:1512
+#: widgets/contact/contact.php:1538
 msgid "The email address is invalid"
 msgstr ""
 
-#: widgets/contact/contact.php:1516
+#: widgets/contact/contact.php:1542
 msgid "Missing subject"
 msgstr ""
 
-#: widgets/contact/contact.php:1546
+#: widgets/contact/contact.php:1572
 msgid "Error validating your Captcha response."
 msgstr ""
 
-#: widgets/contact/contact.php:1581
+#: widgets/contact/contact.php:1607
 msgid "Unfortunately our system identified your message as spam."
 msgstr ""
 
-#: widgets/contact/contact.php:1588
+#: widgets/contact/contact.php:1614
 msgid "Error validating your Captcha response. Really Simple CAPTCHA missing."
 msgstr ""
 
-#: widgets/contact/contact.php:1597
+#: widgets/contact/contact.php:1623
 msgid "Error validating your Captcha response. Please try again."
 msgstr ""
 
-#: widgets/contact/contact.php:1604, widgets/contact/contact.php:1612
+#: widgets/contact/contact.php:1630, widgets/contact/contact.php:1638
 msgid "Unfortunately, our system identified your message as spam."
 msgstr ""
 
-#: widgets/contact/contact.php:1621
+#: widgets/contact/contact.php:1647
 msgctxt "The name of who sent this email"
 msgid "From"
 msgstr ""
 
-#: widgets/contact/contact.php:1746
+#: widgets/contact/contact.php:1772
 msgid "Add a form autoresponder and additional fields, including a date and time picker with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/contact/contact.php:1751
+#: widgets/contact/contact.php:1777
 msgid "Use Google Fonts right inside the Contact Form Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -3423,11 +3423,11 @@ msgstr ""
 msgid "Use theme font"
 msgstr ""
 
-#: base/inc/fields/icon.class.php:58
+#: base/inc/fields/icon.class.php:65
 msgid "Choose Icon"
 msgstr ""
 
-#: base/inc/fields/icon.class.php:61, base/inc/fields/media.class.php:121, base/inc/fields/multiple-media.class.php:118, base/inc/fields/multiple-media.class.php:136
+#: base/inc/fields/icon.class.php:68, base/inc/fields/media.class.php:121, base/inc/fields/multiple-media.class.php:118, base/inc/fields/multiple-media.class.php:136
 msgid "Remove"
 msgstr ""
 
