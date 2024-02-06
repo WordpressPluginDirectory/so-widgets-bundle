@@ -3,8 +3,8 @@ Tags: widget, button, slider, hero, google maps, image, carousel, lottie, featur
 Requires at least: 4.2
 Tested up to: 6.4
 Requires PHP: 5.6.20
-Stable tag: 1.58.2
-Build time: 2024-01-27T17:27:08+00:00
+Stable tag: 1.58.3
+Build time: 2024-02-05T21:41:55+00:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -105,6 +105,10 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.58.3 - 05 February 2024 =
+* Button: Additional improvements for OnClick handling
+* Button: Added OnClick support for MailerLite.
 
 = 1.58.2 - 27 January 2024 =
 * Button: Restricted OnClick field allowed values to known services and functions.
