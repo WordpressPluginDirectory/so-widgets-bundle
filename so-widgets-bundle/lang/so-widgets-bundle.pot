@@ -752,7 +752,7 @@ msgstr ""
 msgid "Posts Query"
 msgstr ""
 
-#: widgets/blog/blog.php:635, widgets/button/button.php:30, widgets/contact/contact.php:1042, widgets/cta/cta.php:63, widgets/features/features.php:459, widgets/headline/headline.php:35, widgets/image/image.php:30, widgets/social-media-buttons/social-media-buttons.php:31, base/inc/widgets/base-slider.class.php:239
+#: widgets/blog/blog.php:635, widgets/button/button.php:30, widgets/contact/contact.php:1042, widgets/cta/cta.php:63, widgets/features/features.php:474, widgets/headline/headline.php:35, widgets/image/image.php:30, widgets/social-media-buttons/social-media-buttons.php:31, base/inc/widgets/base-slider.class.php:239
 msgid "Responsive Breakpoint"
 msgstr ""
 
@@ -1614,7 +1614,7 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#: widgets/cta/cta.php:303
+#: widgets/cta/cta.php:325
 msgid "Get more font customization options with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -1770,15 +1770,15 @@ msgstr ""
 msgid "Open more URL in a new window"
 msgstr ""
 
-#: widgets/features/features.php:461
+#: widgets/features/features.php:476
 msgid "This setting controls when the features widget will collapse for mobile devices. The default value is 780px"
 msgstr ""
 
-#: widgets/features/features.php:473
+#: widgets/features/features.php:488
 msgid "Add an feature icon title tooltip with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/features/features.php:478
+#: widgets/features/features.php:493
 msgid "Use Google Fonts right inside the Features Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -3109,7 +3109,7 @@ msgstr ""
 msgid "Very high"
 msgstr ""
 
-#: widgets/social-media-buttons/social-media-buttons.php:413
+#: widgets/social-media-buttons/social-media-buttons.php:432
 msgid "Add custom social networks with %sSiteOrigin Premium%s"
 msgstr ""
 
