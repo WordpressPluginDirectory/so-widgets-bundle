@@ -2841,7 +2841,7 @@ msgstr ""
 msgid "Set the number of posts preloaded in the background when clicking next. The default is 10."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:463
+#: widgets/post-carousel/post-carousel.php:467
 msgid "Get access to additional carousel themes with %sSiteOrigin Premium%s"
 msgstr ""
 
