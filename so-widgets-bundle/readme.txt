@@ -3,8 +3,8 @@ Tags: widget, button, slider, hero, google maps, image, carousel, lottie, featur
 Requires at least: 4.2
 Tested up to: 6.4
 Requires PHP: 5.6.20
-Stable tag: 1.58.7
-Build time: 2024-02-25T12:41:46+00:00
+Stable tag: 1.58.8
+Build time: 2024-03-02T22:37:22+00:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -105,6 +105,19 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.58.8 - 02 March 2024 =
+* Button: Resolved a potential alignment warning.
+* Contact Form: Resolved a potential deprecated notice.
+* Editor: Resolved a potential noreferrer empty text deprecated notice.
+* Features: Prevent a potential feature width CSS miscalculation.
+* Google Maps: Resolved a potential PHP 8.2+ warning.
+* Sliders: Resolved a potential FitVids related error.
+* Color Fields: Resolved a potential deprecated notice.
+* Text Input: Resolved undesired HTML removal on multisite installations.
+* Shifted control for lazy loading images to WordPress.
+* Added additional data sanitization.
+* Beaver Builder: Resolved an issue on save.
 
 = 1.58.7 - 25 February 2024 =
 * Anything Carousel: Corrected global responsive settings propagation.
