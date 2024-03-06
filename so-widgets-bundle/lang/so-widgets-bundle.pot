@@ -256,20 +256,24 @@ msgstr ""
 msgid "Widgets Bundle Post Meta Data"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:64, compat/block-editor/widget-block.php:100
+#: compat/block-editor/widget-block.php:72, compat/block-editor/widget-block.php:108
 msgid "%s by %s"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:120, compat/visual-composer/visual-composer.php:74
+#: compat/block-editor/widget-block.php:128, compat/visual-composer/visual-composer.php:74
 msgid "Selecting a different widget will revert any changes. Continue?"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:141
+#: compat/block-editor/widget-block.php:149
 msgid "You need to select a widget type before you'll see anything here. :)"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:245
+#: compat/block-editor/widget-block.php:253
 msgid "Invalid widget class %s. Please make sure the widget has been activated in %sSiteOrigin Widgets%s."
+msgstr ""
+
+#: compat/block-editor/widget-block.php:313
+msgid "Invalid Widgets Bundle data"
 msgstr ""
 
 #: compat/visual-composer/visual-composer.php:36, compat/visual-composer/visual-composer.php:52
@@ -1626,7 +1630,7 @@ msgstr ""
 msgid "Enable the \"Automatically add paragraphs\" setting by default."
 msgstr ""
 
-#: widgets/editor/editor.php:181
+#: widgets/editor/editor.php:177
 msgid "Use Google Fonts right inside the Editor Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -3661,11 +3665,11 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: base/inc/fields/widget.class.php:49
+#: base/inc/fields/widget.class.php:58
 msgid "%s does not exist"
 msgstr ""
 
-#: base/inc/fields/widget.class.php:62
+#: base/inc/fields/widget.class.php:68
 msgid "%s is not a SiteOrigin Widget"
 msgstr ""
 
