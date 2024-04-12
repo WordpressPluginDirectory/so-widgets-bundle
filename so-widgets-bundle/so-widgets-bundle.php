@@ -2,7 +2,7 @@
 /*
 Plugin Name: SiteOrigin Widgets Bundle
 Description: A highly customizable collection of widgets, ready to be used anywhere, neatly bundled into a single plugin.
-Version: 1.58.12
+Version: 1.59.0
 Text Domain: so-widgets-bundle
 Domain Path: /lang
 Author: SiteOrigin
@@ -12,7 +12,7 @@ License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 */
 
-define( 'SOW_BUNDLE_VERSION', '1.58.12' );
+define( 'SOW_BUNDLE_VERSION', '1.59.0' );
 define( 'SOW_BUNDLE_BASE_FILE', __FILE__ );
 
 // Allow JS suffix to be pre-set.
@@ -81,9 +81,6 @@ class SiteOrigin_Widgets_Bundle {
 
 		add_filter( 'wp_enqueue_scripts', array( $this, 'register_general_scripts' ) );
 		add_filter( 'wp_enqueue_scripts', array( $this, 'enqueue_active_widgets_scripts' ) );
-
-		// This is a temporary filter to disable the new Jetpack Grunion contact form editor.
-		add_filter( 'tmp_grunion_allow_editor_view', '__return_false' );
 
 		// Add compatibility for Autoptimize.
 		if ( class_exists( 'autoptimizeMain', false ) ) {
@@ -1008,6 +1005,23 @@ class SiteOrigin_Widgets_Bundle {
 		$excluded = implode( ',', array_filter( array_merge( $excl, $add ) ) );
 
 		return $excluded;
+	}
+
+	public function is_block_editor() {
+		$current_screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
+
+		// This is for the Gutenberg plugin.
+		$is_gutenberg_page = $current_screen != null &&
+							 function_exists( 'is_gutenberg_page' ) &&
+							 is_gutenberg_page();
+		// This is for WP 5 with the integrated block editor.
+		$is_block_editor = false;
+
+		if ( ! empty( $current_screen ) && method_exists( $current_screen, 'is_block_editor' ) ) {
+			$is_block_editor = $current_screen->is_block_editor();
+		}
+
+		return $is_block_editor || $is_gutenberg_page;
 	}
 }
 
