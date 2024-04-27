@@ -64,15 +64,15 @@ msgstr ""
 msgid "Deactivated"
 msgstr ""
 
-#: so-widgets-bundle.php:827
+#: so-widgets-bundle.php:839
 msgid "Manage Widgets"
 msgstr ""
 
-#: so-widgets-bundle.php:828
+#: so-widgets-bundle.php:840
 msgid "Support"
 msgstr ""
 
-#: so-widgets-bundle.php:831
+#: so-widgets-bundle.php:843
 msgid "Addons"
 msgstr ""
 
@@ -256,23 +256,23 @@ msgstr ""
 msgid "Widgets Bundle Post Meta Data"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:72, compat/block-editor/widget-block.php:108
+#: compat/block-editor/widget-block.php:77, compat/block-editor/widget-block.php:113
 msgid "%s by %s"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:128, compat/visual-composer/visual-composer.php:74
+#: compat/block-editor/widget-block.php:133, compat/visual-composer/visual-composer.php:74
 msgid "Selecting a different widget will revert any changes. Continue?"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:149
+#: compat/block-editor/widget-block.php:154
 msgid "You need to select a widget type before you'll see anything here. :)"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:253
+#: compat/block-editor/widget-block.php:258
 msgid "Invalid widget class %s. Please make sure the widget has been activated in %sSiteOrigin Widgets%s."
 msgstr ""
 
-#: compat/block-editor/widget-block.php:313
+#: compat/block-editor/widget-block.php:318
 msgid "Invalid Widgets Bundle data"
 msgstr ""
 
@@ -708,7 +708,7 @@ msgstr ""
 msgid "Background Color"
 msgstr ""
 
-#: widgets/blog/blog.php:249
+#: widgets/blog/blog.php:249, widgets/post-carousel/post-carousel.php:222
 msgid "Post Title"
 msgstr ""
 
@@ -796,7 +796,7 @@ msgstr ""
 msgid "Post Meta Color"
 msgstr ""
 
-#: widgets/blog/blog.php:543, widgets/blog/blog.php:1346
+#: widgets/blog/blog.php:543, widgets/blog/blog.php:1350
 msgid "Pagination"
 msgstr ""
 
@@ -836,36 +836,36 @@ msgstr ""
 msgid "Scroll the user to the top of the Blog Widget after pagination links are clicked."
 msgstr ""
 
-#: widgets/blog/blog.php:1111
+#: widgets/blog/blog.php:1115
 msgid "Sticky"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: widgets/blog/blog.php:1148
+#: widgets/blog/blog.php:1152
 msgid ", "
 msgstr ""
 
-#: widgets/blog/blog.php:1163
+#: widgets/blog/blog.php:1167
 msgid "Leave a comment"
 msgstr ""
 
-#: widgets/blog/blog.php:1164
+#: widgets/blog/blog.php:1168
 msgid "One Comment"
 msgstr ""
 
-#: widgets/blog/blog.php:1165, widgets/blog/tpl/offset.php:55
+#: widgets/blog/blog.php:1169, widgets/blog/tpl/offset.php:55
 msgid "% Comments"
 msgstr ""
 
-#: widgets/blog/blog.php:1224, widgets/blog/blog.php:1277
+#: widgets/blog/blog.php:1228, widgets/blog/blog.php:1281
 msgid "Continue reading"
 msgstr ""
 
-#: widgets/blog/blog.php:1376
+#: widgets/blog/blog.php:1380
 msgid "Get more pagination themes and Ajax reloading with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/blog/blog.php:1381
+#: widgets/blog/blog.php:1385
 msgid "Adjust the post Read More link text and choose a custom post date format with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -2829,12 +2829,8 @@ msgstr ""
 msgid "Hover background"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:222
-msgid "Post title"
-msgstr ""
-
 #: widgets/post-carousel/post-carousel.php:230
-msgid "Post thumbnail"
+msgid "Post Thumbnail"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:235
@@ -3447,23 +3443,23 @@ msgstr ""
 msgid "From"
 msgstr ""
 
-#: base/inc/fields/date-range.class.php:88
+#: base/inc/fields/date-range.class.php:90
 msgid "ago"
 msgstr ""
 
-#: base/inc/fields/date-range.class.php:95
+#: base/inc/fields/date-range.class.php:97
 msgid "days"
 msgstr ""
 
-#: base/inc/fields/date-range.class.php:96
+#: base/inc/fields/date-range.class.php:98
 msgid "weeks"
 msgstr ""
 
-#: base/inc/fields/date-range.class.php:97
+#: base/inc/fields/date-range.class.php:99
 msgid "months"
 msgstr ""
 
-#: base/inc/fields/date-range.class.php:98
+#: base/inc/fields/date-range.class.php:100
 msgid "years"
 msgstr ""
 
