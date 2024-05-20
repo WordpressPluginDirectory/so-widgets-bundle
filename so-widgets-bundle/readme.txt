@@ -2,9 +2,9 @@
 Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.5
-Requires PHP: 5.6.20
-Stable tag: 1.60.0
-Build time: 2024-04-26T21:33:10+01:00
+Requires PHP: 7.0.0
+Stable tag: 1.61.0
+Build time: 2024-05-19T14:30:59+01:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -107,6 +107,16 @@ The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets
 
 == Changelog ==
 
+= 1.61.0 - 19 May 2024 =
+* New Widget! Recent Posts: Drive traffic to your latest content with a visually appealing, fully customizable recent posts showcase.
+* Button: Minor padding adjustments to improve alignment.
+* Post Carousel: Add Animation Setting.
+* Social Media Buttons: Update to ensure Atom buttons render normally if hover styles are cleared.
+* Social Media Buttons: Updated Skype default colors.
+* Post Selector: Corrected `date_query_relative` check.
+* Resolved fallback shortcode decoding issue.
+* Increased the required PHP version.
+
 = 1.60.0 - 26 April 2024 =
 * Author Box: Applied title margin directly to wrapper and adjusted alignment.
 * Blog: Resolved a potential fatal `TypeError`.
@@ -126,7 +136,7 @@ The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets
 * Deprecated Notices: Resolved `intval` deprecated notice.
 
 = 1.59.0 - 11 April 2024 =
-* New Widget! Display author information, including avatar, name, bio, and post links in a customizable box.
+* New Widget! Author Box: Display author information, including avatar, name, bio, and post links in a customizable box.
 * Contact Form: Resolved an issue where using multibyte characters (e.g., "מייל" for Email) as field labels prevented the form from being submitted correctly.
 * Social Media Buttons: Updated X network color defaults.
 * Social Media Buttons: Added Snapshot Square icon.
