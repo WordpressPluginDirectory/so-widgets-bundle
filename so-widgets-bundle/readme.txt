@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.5
 Requires PHP: 7.0.0
-Stable tag: 1.61.1
-Build time: 2024-05-20T15:28:28+01:00
+Stable tag: 1.62.1
+Build time: 2024-06-17T13:02:52+01:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -19,13 +19,14 @@ SiteOrigin Widgets are ready to be used **anywhere**, in [Page Builder by SiteOr
 
 [vimeo https://vimeo.com/102103379]
 
-Our collection is growing; here's what we have so far:
+Our collection is growing, and here are some of the powerful widgets included so far:
 
 - **Accordion** Efficiently display content in expandable sections, maximizing space for improved organization.
 - **Anything Carousel** Display images, text, or any content in a highly customizable and responsive carousel slider.
 - **Author Box** Display author information, including avatar, name, bio, and post links in a customizable box.
 - **Blog** Showcase blog content in personalized list or grid layouts with flexible design and display settings.
 - **Button** Create a custom button with flexible styling, icon support, and click tracking functionality.
+- **Button Grid** Add multiple buttons in one go, customize individually, and present them in a neat grid layout.
 - **Contact Form** Add a contact form with custom fields, design options, spam protection, and email notifications.
 - **Call To Action** Prompt visitors to take action with a customizable title, subtitle, button, and design settings.
 - **Editor** Insert and customize content with a rich text editor offering extensive formatting options.
@@ -36,12 +37,13 @@ Our collection is growing; here's what we have so far:
 - **Icon** Display a customizable icon with color, size, alignment, and optional link settings.
 - **Image** Add a responsive image with custom dimensions, positioning, caption, link, and styling options.
 - **Image Grid** Showcase images in a responsive grid layout with custom size, spacing, alignment, and captions.
+- **Image Slider** Create a responsive slider with customizable image and video frames, navigation, and appearance settings.
 - **Layout Slider** Design responsive slider frames with unique layouts, backgrounds, and content built with Page Builder.
 - **Lottie Player** Bring your content to life using interactive Lottie animations with personalized settings and links.
 - **Post Carousel** Display blog posts or custom post types in a responsive, customizable carousel layout.
 - **Price Table** Display pricing plans in a professional table format with custom columns, features, and design.
+- **Recent Posts** Drive traffic to your latest content with a visually appealing, fully customizable recent posts showcase.
 - **Simple Masonry Layout** Display images in an attractive masonry grid with adjustable columns, gutters, and optional captions.
-- **Image Slider** Create a responsive slider with customizable image and video frames, navigation, and appearance settings.
 - **Social Media Buttons** Add social media buttons to your site with personalized icons, colors, and design settings.
 - **Tabs** Create tabbed content panels with customizable titles, content, initial tab, and design settings.
 - **Taxonomy** Automatically display the taxonomies of the current post with customizable labels, colors, and link settings.
@@ -106,6 +108,22 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.62.1 - 17 June 2024 =
+* Accordion: Aligned Scroll to Offset value with Tabs.
+* Button Grid: Resolved a potential layout warning.
+* Contact Form: Resolved potential invalid field border.
+* Updated Google Fonts.
+* Updated Font Awesome.
+* Updated SiteOrigin Installer.
+
+= 1.62.0 - 06 June 2024 =
+* New Widget! Button Grid: Add multiple buttons in one go, customize individually, and present them in a neat grid layout.
+* Blog: Validate title HTML tag before output.
+* Slider: Restored Responsive Height setting.
+* Tabs: Always trigger `tab_change` event when changing tabs.
+* Testimonials: Removed unused SVG.
+* Links Field: Reduced width.
 
 = 1.61.1 - 20 May 2024 =
 * Button: Resolved Atom theme background error. 

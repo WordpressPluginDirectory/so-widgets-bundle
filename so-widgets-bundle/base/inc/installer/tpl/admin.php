@@ -42,8 +42,8 @@
 							if ( ! empty( $highlight ) && $slug == $highlight ) {
 								echo '<span class="siteorigin-required">';
 								printf(
-									esc_html( 'Required %s', 'siteorigin-installer' ),
-									$item['type'] == 'plugins' ? esc_html( 'Plugin', 'siteorigin-installer' ) : esc_html( 'Theme', 'siteorigin-installer' )
+									esc_html__( 'Required %s', 'siteorigin-installer' ),
+									$item['type'] == 'plugins' ? esc_html__( 'Plugin', 'siteorigin-installer' ) : esc_html__( 'Theme', 'siteorigin-installer' )
 								);
 								echo '</span>';
 							}
