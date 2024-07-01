@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.5
 Requires PHP: 7.0.0
-Stable tag: 1.62.1
-Build time: 2024-06-17T13:02:52+01:00
+Stable tag: 1.62.2
+Build time: 2024-06-30T10:28:46-07:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,14 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.62.2 - 28 June 2024 =
+* Improved attribute name handling.
+* Button Grid: Accounted for possible warnings.
+* Carousel: Improved continuous scrolling behavior.
+* Carousel: Update to prevent autoplay in the Block Editor preview.
+* Carousel: Resolved potential PHP deprecated warning.
+* Lottie Player: Fixed attribute output.
 
 = 1.62.1 - 17 June 2024 =
 * Accordion: Aligned Scroll to Offset value with Tabs.

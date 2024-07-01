@@ -3949,19 +3949,19 @@ msgstr ""
 msgid "Item title"
 msgstr ""
 
-#: base/inc/widgets/base-carousel.class.php:494
+#: base/inc/widgets/base-carousel.class.php:496
 msgid "Next"
 msgstr ""
 
-#: base/inc/widgets/base-carousel.class.php:494
+#: base/inc/widgets/base-carousel.class.php:496
 msgid "Next Posts"
 msgstr ""
 
-#: base/inc/widgets/base-carousel.class.php:500
+#: base/inc/widgets/base-carousel.class.php:502
 msgid "Previous"
 msgstr ""
 
-#: base/inc/widgets/base-carousel.class.php:500
+#: base/inc/widgets/base-carousel.class.php:502
 msgid "Previous Posts"
 msgstr ""
 
