@@ -1,10 +1,10 @@
 === SiteOrigin Widgets Bundle ===
 Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 7.0.0
-Stable tag: 1.62.2
-Build time: 2024-06-30T10:28:46-07:00
+Stable tag: 1.62.3
+Build time: 2024-07-23T22:01:34+01:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -109,7 +109,15 @@ The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets
 
 == Changelog ==
 
-= 1.62.2 - 28 June 2024 =
+= 1.62.3 - 23 July 2024 =
+* Updated Google Fonts.
+* Presets: Hid empty default if `default_preset` is set.
+* Blog: Ensured default content size outputs with `px` unit of measurement.
+* Developer: Posts Field: Added `show_count` to optionally show the post count.
+* Developer: Blog: Addded `siteorigin_widgets_blog_filter_categories_output`.
+* Developer: Blog: Added `siteorigin_widgets_blog_content_wrapper_styles`.
+
+= 1.62.2 - 30 June 2024 =
 * Improved attribute name handling.
 * Button Grid: Accounted for possible warnings.
 * Carousel: Improved continuous scrolling behavior.
