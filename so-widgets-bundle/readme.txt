@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.6
 Requires PHP: 7.0.0
-Stable tag: 1.62.3
-Build time: 2024-07-23T22:01:34+01:00
+Stable tag: 1.63.0
+Build time: 2024-08-11T21:13:32+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,13 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.63.0 - 11 August 2024 =
+* Button Grid: Update to ensure the Grid Widget doesn't override the settings of unrelated Button Widgets.
+* Blog Offset: Increased the author avatar image width.
+* Blog: Added `Trim Manual Excerpt` setting. Trim the excerpt even if a manual excerpt has been added.
+* Slider: Resolved a potential PHP 8 TypeError.
+* Video: Ensured video oEmbed is able to apply full screen.
 
 = 1.62.3 - 23 July 2024 =
 * Updated Google Fonts.
