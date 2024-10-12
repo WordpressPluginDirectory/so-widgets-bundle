@@ -220,7 +220,7 @@ msgstr ""
 msgid "Developers - create your own widgets for the Widgets Bundle."
 msgstr ""
 
-#: admin/tpl/admin.php:147
+#: admin/tpl/admin.php:147, widgets/editor/editor.php:144
 msgid "Read More"
 msgstr ""
 
@@ -616,6 +616,10 @@ msgstr ""
 msgid "Skip Post if No Featured Image"
 msgstr ""
 
+#: widgets/blog/blog.php:128
+msgid "Featured Image Size"
+msgstr ""
+
 #: widgets/blog/blog.php:137, widgets/recent-posts/recent-posts.php:90
 msgid "Post Title HTML Tag"
 msgstr ""
@@ -949,8 +953,8 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
-#: widgets/button/button.php:129, widgets/button/button.php:140, widgets/contact/contact.php:486, widgets/headline/headline.php:101, widgets/headline/headline.php:111, widgets/headline/headline.php:182, widgets/headline/headline.php:192, widgets/social-media-buttons/social-media-buttons.php:196, widgets/social-media-buttons/social-media-buttons.php:207
-msgid "Justify"
+#: widgets/button/button.php:129, widgets/button/button.php:140
+msgid "Full Width"
 msgstr ""
 
 #: widgets/button/button.php:134, widgets/social-media-buttons/social-media-buttons.php:201
@@ -1453,6 +1457,10 @@ msgstr ""
 msgid "Inside"
 msgstr ""
 
+#: widgets/contact/contact.php:486, widgets/headline/headline.php:101, widgets/headline/headline.php:111, widgets/headline/headline.php:182, widgets/headline/headline.php:192, widgets/social-media-buttons/social-media-buttons.php:196, widgets/social-media-buttons/social-media-buttons.php:207
+msgid "Justify"
+msgstr ""
+
 #: widgets/contact/contact.php:507, widgets/contact/contact.php:699, widgets/contact/contact.php:821, widgets/hero/hero.php:340, widgets/layout-slider/layout-slider.php:256, widgets/testimonial/testimonial.php:222
 msgid "Text color"
 msgstr ""
@@ -1688,6 +1696,10 @@ msgstr ""
 
 #: widgets/cta/cta.php:112
 msgid "Fonts"
+msgstr ""
+
+#: widgets/cta/cta.php:116
+msgid "Title HTML Tag"
 msgstr ""
 
 #: widgets/cta/cta.php:130
@@ -3554,6 +3566,10 @@ msgstr ""
 msgid "*"
 msgstr ""
 
+#: base/inc/fields/builder.class.php:27
+msgid "Open Builder"
+msgstr ""
+
 #: base/inc/fields/builder.class.php:43
 msgid "This field requires: "
 msgstr ""
@@ -3589,10 +3605,6 @@ msgstr ""
 
 #: base/inc/fields/date-range.class.php:100
 msgid "years"
-msgstr ""
-
-#: base/inc/fields/error.class.php:17
-msgid "$this->message"
 msgstr ""
 
 #: base/inc/fields/factory.class.php:23
