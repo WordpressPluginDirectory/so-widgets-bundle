@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.6
 Requires PHP: 7.0.0
-Stable tag: 1.63.3
-Build time: 2024-10-11T14:54:13+01:00
+Stable tag: 1.63.4
+Build time: 2024-10-23T19:09:00+01:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,10 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.63.4 - 23 October 2024 =
+* Image Grid: Ensured the image link always covers the image.
+* Simple Masonry: Removed removed transition to improve CLS.
 
 = 1.63.3 - 11 October 2024 =
 * Button: Renamed Justify alignment to Full Width.

@@ -396,7 +396,7 @@ msgstr ""
 msgid "Font color"
 msgstr ""
 
-#: widgets/accordion/accordion.php:174, widgets/anything-carousel/anything-carousel.php:96
+#: widgets/accordion/accordion.php:174
 msgid "Bottom margin"
 msgstr ""
 
@@ -417,7 +417,7 @@ msgid "SiteOrigin Anything Carousel"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:56
-msgid "Adaptive height"
+msgid "Adaptive Height"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:70
@@ -428,12 +428,16 @@ msgstr ""
 msgid "Item"
 msgstr ""
 
+#: widgets/anything-carousel/anything-carousel.php:96, widgets/author-box/author-box.php:191, widgets/recent-posts/recent-posts.php:215
+msgid "Bottom Margin"
+msgstr ""
+
 #: widgets/anything-carousel/anything-carousel.php:108, widgets/author-box/author-box.php:172, widgets/author-box/author-box.php:203, widgets/author-box/author-box.php:238, widgets/blog/blog.php:263, widgets/blog/blog.php:290, widgets/blog/blog.php:317, widgets/blog/blog.php:354, widgets/blog/blog.php:393, widgets/blog/blog.php:425, widgets/blog/blog.php:592, widgets/button/button.php:197, widgets/contact/contact.php:448, widgets/contact/contact.php:498, widgets/features/features.php:157, widgets/features/features.php:178, widgets/features/features.php:199, widgets/headline/headline.php:86, widgets/headline/headline.php:167, widgets/recent-posts/recent-posts.php:306, widgets/recent-posts/recent-posts.php:332, widgets/recent-posts/recent-posts.php:357, widgets/recent-posts/recent-posts.php:382, base/inc/widgets/base-carousel.class.php:394
 msgid "Font"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:112, widgets/contact/contact.php:453, widgets/contact/contact.php:503, widgets/contact/contact.php:704, base/inc/widgets/base-carousel.class.php:398
-msgid "Font size"
+#: widgets/anything-carousel/anything-carousel.php:112, widgets/author-box/author-box.php:176, widgets/author-box/author-box.php:207, widgets/author-box/author-box.php:242, widgets/blog/blog.php:267, widgets/blog/blog.php:294, widgets/blog/blog.php:321, widgets/blog/blog.php:358, widgets/blog/blog.php:397, widgets/blog/blog.php:433, widgets/blog/blog.php:596, widgets/button/button.php:203, widgets/headline/headline.php:91, widgets/headline/headline.php:172, widgets/recent-posts/recent-posts.php:310, widgets/recent-posts/recent-posts.php:336, widgets/recent-posts/recent-posts.php:361, widgets/recent-posts/recent-posts.php:386
+msgid "Font Size"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:116, widgets/author-box/author-box.php:181, widgets/author-box/author-box.php:212, widgets/author-box/author-box.php:247, widgets/blog/blog.php:272, widgets/blog/blog.php:299, widgets/blog/blog.php:326, widgets/blog/blog.php:363, widgets/blog/blog.php:402, widgets/blog/blog.php:451, widgets/contact/contact.php:458, widgets/contact/contact.php:601, widgets/contact/contact.php:770, widgets/features/features.php:166, widgets/features/features.php:187, widgets/features/features.php:208, widgets/google-map/google-map.php:362, widgets/headline/headline.php:78, widgets/headline/headline.php:159, widgets/headline/headline.php:229, widgets/icon/icon.php:34, widgets/price-table/price-table.php:174, widgets/price-table/price-table.php:192, widgets/price-table/price-table.php:209, widgets/recent-posts/recent-posts.php:315, widgets/recent-posts/recent-posts.php:341, widgets/recent-posts/recent-posts.php:366, widgets/recent-posts/recent-posts.php:391, widgets/recent-posts/recent-posts.php:454, widgets/taxonomy/taxonomy.php:54, base/inc/widgets/base-carousel.class.php:402
@@ -444,19 +448,19 @@ msgstr ""
 msgid "Margin"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:125, widgets/author-box/author-box.php:111, widgets/author-box/author-box.php:122, widgets/author-box/author-box.php:225, widgets/button/button.php:101, widgets/button/button.php:225, widgets/contact/contact.php:515, widgets/features/features.php:71, widgets/image-grid/image-grid.php:130, widgets/image-grid/image-grid.php:150, widgets/image-grid/image-grid.php:243, widgets/simple-masonry/simple-masonry.php:203
+#: widgets/anything-carousel/anything-carousel.php:125, widgets/author-box/author-box.php:111, widgets/author-box/author-box.php:122, widgets/author-box/author-box.php:225, widgets/button/button.php:101, widgets/button/button.php:225, widgets/contact/contact.php:515, widgets/features/features.php:71, widgets/image-grid/image-grid.php:130, widgets/image-grid/image-grid.php:150, widgets/image-grid/image-grid.php:243, widgets/simple-masonry/simple-masonry.php:204
 msgid "Top"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:129, widgets/author-box/author-box.php:112, widgets/author-box/author-box.php:123, widgets/author-box/author-box.php:160, widgets/button/button.php:102, widgets/button/button.php:127, widgets/button/button.php:138, widgets/button/button.php:228, widgets/button-grid/button-grid.php:98, widgets/button-grid/button-grid.php:128, widgets/contact/contact.php:469, widgets/contact/contact.php:484, widgets/contact/contact.php:519, widgets/contact/contact.php:732, widgets/cta/cta.php:172, widgets/features/features.php:72, widgets/headline/headline.php:100, widgets/headline/headline.php:110, widgets/headline/headline.php:181, widgets/headline/headline.php:191, widgets/headline/headline.php:246, widgets/headline/headline.php:255, widgets/icon/icon.php:48, widgets/image/image.php:80, widgets/image/image.php:92, widgets/image/image.php:208, widgets/image-grid/image-grid.php:133, widgets/image-grid/image-grid.php:163, widgets/image-grid/image-grid.php:200, widgets/image-grid/image-grid.php:246, widgets/recent-posts/recent-posts.php:235, widgets/simple-masonry/simple-masonry.php:159, widgets/simple-masonry/simple-masonry.php:206, widgets/simple-masonry/simple-masonry.php:234, widgets/social-media-buttons/social-media-buttons.php:194, widgets/social-media-buttons/social-media-buttons.php:205, widgets/testimonial/testimonial.php:251, base/inc/widgets/base-slider.class.php:143
+#: widgets/anything-carousel/anything-carousel.php:129, widgets/author-box/author-box.php:112, widgets/author-box/author-box.php:123, widgets/author-box/author-box.php:160, widgets/button/button.php:102, widgets/button/button.php:127, widgets/button/button.php:138, widgets/button/button.php:228, widgets/button-grid/button-grid.php:98, widgets/button-grid/button-grid.php:128, widgets/contact/contact.php:469, widgets/contact/contact.php:484, widgets/contact/contact.php:519, widgets/contact/contact.php:732, widgets/cta/cta.php:172, widgets/features/features.php:72, widgets/headline/headline.php:100, widgets/headline/headline.php:110, widgets/headline/headline.php:181, widgets/headline/headline.php:191, widgets/headline/headline.php:246, widgets/headline/headline.php:255, widgets/icon/icon.php:48, widgets/image/image.php:80, widgets/image/image.php:92, widgets/image/image.php:208, widgets/image-grid/image-grid.php:133, widgets/image-grid/image-grid.php:163, widgets/image-grid/image-grid.php:200, widgets/image-grid/image-grid.php:246, widgets/recent-posts/recent-posts.php:235, widgets/simple-masonry/simple-masonry.php:160, widgets/simple-masonry/simple-masonry.php:207, widgets/simple-masonry/simple-masonry.php:235, widgets/social-media-buttons/social-media-buttons.php:194, widgets/social-media-buttons/social-media-buttons.php:205, widgets/testimonial/testimonial.php:251, base/inc/widgets/base-slider.class.php:143
 msgid "Right"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:133, widgets/author-box/author-box.php:113, widgets/author-box/author-box.php:124, widgets/author-box/author-box.php:226, widgets/button/button.php:103, widgets/button/button.php:231, widgets/contact/contact.php:523, widgets/features/features.php:73, widgets/image-grid/image-grid.php:136, widgets/image-grid/image-grid.php:152, widgets/image-grid/image-grid.php:249, widgets/simple-masonry/simple-masonry.php:209
+#: widgets/anything-carousel/anything-carousel.php:133, widgets/author-box/author-box.php:113, widgets/author-box/author-box.php:124, widgets/author-box/author-box.php:226, widgets/button/button.php:103, widgets/button/button.php:231, widgets/contact/contact.php:523, widgets/features/features.php:73, widgets/image-grid/image-grid.php:136, widgets/image-grid/image-grid.php:152, widgets/image-grid/image-grid.php:249, widgets/simple-masonry/simple-masonry.php:210
 msgid "Bottom"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:137, widgets/author-box/author-box.php:114, widgets/author-box/author-box.php:125, widgets/author-box/author-box.php:159, widgets/button/button.php:104, widgets/button/button.php:126, widgets/button/button.php:137, widgets/button/button.php:234, widgets/button-grid/button-grid.php:96, widgets/button-grid/button-grid.php:126, widgets/contact/contact.php:468, widgets/contact/contact.php:483, widgets/contact/contact.php:527, widgets/contact/contact.php:731, widgets/cta/cta.php:170, widgets/features/features.php:74, widgets/headline/headline.php:99, widgets/headline/headline.php:109, widgets/headline/headline.php:180, widgets/headline/headline.php:190, widgets/headline/headline.php:245, widgets/headline/headline.php:254, widgets/icon/icon.php:47, widgets/image/image.php:79, widgets/image/image.php:91, widgets/image/image.php:206, widgets/image-grid/image-grid.php:139, widgets/image-grid/image-grid.php:161, widgets/image-grid/image-grid.php:198, widgets/image-grid/image-grid.php:252, widgets/recent-posts/recent-posts.php:237, widgets/simple-masonry/simple-masonry.php:157, widgets/simple-masonry/simple-masonry.php:212, widgets/simple-masonry/simple-masonry.php:233, widgets/social-media-buttons/social-media-buttons.php:193, widgets/social-media-buttons/social-media-buttons.php:204, widgets/testimonial/testimonial.php:250, base/inc/widgets/base-slider.class.php:141
+#: widgets/anything-carousel/anything-carousel.php:137, widgets/author-box/author-box.php:114, widgets/author-box/author-box.php:125, widgets/author-box/author-box.php:159, widgets/button/button.php:104, widgets/button/button.php:126, widgets/button/button.php:137, widgets/button/button.php:234, widgets/button-grid/button-grid.php:96, widgets/button-grid/button-grid.php:126, widgets/contact/contact.php:468, widgets/contact/contact.php:483, widgets/contact/contact.php:527, widgets/contact/contact.php:731, widgets/cta/cta.php:170, widgets/features/features.php:74, widgets/headline/headline.php:99, widgets/headline/headline.php:109, widgets/headline/headline.php:180, widgets/headline/headline.php:190, widgets/headline/headline.php:245, widgets/headline/headline.php:254, widgets/icon/icon.php:47, widgets/image/image.php:79, widgets/image/image.php:91, widgets/image/image.php:206, widgets/image-grid/image-grid.php:139, widgets/image-grid/image-grid.php:161, widgets/image-grid/image-grid.php:198, widgets/image-grid/image-grid.php:252, widgets/recent-posts/recent-posts.php:237, widgets/simple-masonry/simple-masonry.php:158, widgets/simple-masonry/simple-masonry.php:213, widgets/simple-masonry/simple-masonry.php:234, widgets/social-media-buttons/social-media-buttons.php:193, widgets/social-media-buttons/social-media-buttons.php:204, widgets/testimonial/testimonial.php:250, base/inc/widgets/base-slider.class.php:141
 msgid "Left"
 msgstr ""
 
@@ -465,27 +469,27 @@ msgid "Navigation"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:151
-msgid "Arrows color"
+msgid "Arrows Color"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:156
-msgid "Arrows hover color"
+msgid "Arrows Hover Color"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:161
-msgid "Arrows margin"
+msgid "Arrows Margin"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:162
 msgid "The space between the navigation arrows and items."
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:166
-msgid "Dots color"
+#: widgets/anything-carousel/anything-carousel.php:166, widgets/blog/blog.php:611
+msgid "Dots Color"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:171
-msgid "Dots selected and hover color"
+msgid "Dots Selected and Hover Color"
 msgstr ""
 
 #: widgets/anything-carousel/anything-carousel.php:332
@@ -564,16 +568,8 @@ msgstr ""
 msgid "Author Name"
 msgstr ""
 
-#: widgets/author-box/author-box.php:176, widgets/author-box/author-box.php:207, widgets/author-box/author-box.php:242, widgets/blog/blog.php:267, widgets/blog/blog.php:294, widgets/blog/blog.php:321, widgets/blog/blog.php:358, widgets/blog/blog.php:397, widgets/blog/blog.php:433, widgets/blog/blog.php:596, widgets/button/button.php:203, widgets/headline/headline.php:91, widgets/headline/headline.php:172, widgets/recent-posts/recent-posts.php:310, widgets/recent-posts/recent-posts.php:336, widgets/recent-posts/recent-posts.php:361, widgets/recent-posts/recent-posts.php:386
-msgid "Font Size"
-msgstr ""
-
 #: widgets/author-box/author-box.php:186, widgets/author-box/author-box.php:217, widgets/blog/blog.php:277, widgets/blog/blog.php:304, widgets/blog/blog.php:368, widgets/blog/blog.php:460, widgets/headline/headline.php:82, widgets/headline/headline.php:163, widgets/recent-posts/recent-posts.php:320
 msgid "Hover Color"
-msgstr ""
-
-#: widgets/author-box/author-box.php:191, widgets/recent-posts/recent-posts.php:215
-msgid "Bottom Margin"
 msgstr ""
 
 #: widgets/author-box/author-box.php:198
@@ -616,7 +612,7 @@ msgstr ""
 msgid "Skip Post if No Featured Image"
 msgstr ""
 
-#: widgets/blog/blog.php:128
+#: widgets/blog/blog.php:128, widgets/post-carousel/post-carousel.php:287
 msgid "Featured Image Size"
 msgstr ""
 
@@ -744,7 +740,7 @@ msgstr ""
 msgid "Overlay Post Category"
 msgstr ""
 
-#: widgets/blog/blog.php:379, widgets/blog/blog.php:581
+#: widgets/blog/blog.php:379, widgets/blog/blog.php:581, widgets/post-carousel/post-carousel.php:213
 msgid "Hover Background"
 msgstr ""
 
@@ -824,10 +820,6 @@ msgstr ""
 msgid "Border Hover Color"
 msgstr ""
 
-#: widgets/blog/blog.php:611
-msgid "Dots Color"
-msgstr ""
-
 #: widgets/blog/blog.php:616, widgets/button/button.php:117, widgets/contact/contact.php:475, widgets/contact/contact.php:724, widgets/contact/contact.php:775, widgets/google-map/google-map.php:91, base/inc/fields/image-size.class.php:87
 msgid "Width"
 msgstr ""
@@ -836,7 +828,7 @@ msgstr ""
 msgid "Height"
 msgstr ""
 
-#: widgets/blog/blog.php:633, widgets/recent-posts/recent-posts.php:467
+#: widgets/blog/blog.php:633, widgets/post-carousel/post-carousel.php:305, widgets/recent-posts/recent-posts.php:467
 msgid "Posts Query"
 msgstr ""
 
@@ -949,7 +941,7 @@ msgstr ""
 msgid "Align"
 msgstr ""
 
-#: widgets/button/button.php:128, widgets/button/button.php:139, widgets/button-grid/button-grid.php:97, widgets/button-grid/button-grid.php:127, widgets/contact/contact.php:485, widgets/contact/contact.php:733, widgets/headline/headline.php:98, widgets/headline/headline.php:108, widgets/headline/headline.php:179, widgets/headline/headline.php:189, widgets/headline/headline.php:244, widgets/headline/headline.php:253, widgets/icon/icon.php:46, widgets/image/image.php:81, widgets/image/image.php:93, widgets/image/image.php:207, widgets/image-grid/image-grid.php:151, widgets/image-grid/image-grid.php:162, widgets/image-grid/image-grid.php:199, widgets/simple-masonry/simple-masonry.php:158, widgets/social-media-buttons/social-media-buttons.php:195, widgets/social-media-buttons/social-media-buttons.php:206, base/inc/widgets/base-slider.class.php:142
+#: widgets/button/button.php:128, widgets/button/button.php:139, widgets/button-grid/button-grid.php:97, widgets/button-grid/button-grid.php:127, widgets/contact/contact.php:485, widgets/contact/contact.php:733, widgets/headline/headline.php:98, widgets/headline/headline.php:108, widgets/headline/headline.php:179, widgets/headline/headline.php:189, widgets/headline/headline.php:244, widgets/headline/headline.php:253, widgets/icon/icon.php:46, widgets/image/image.php:81, widgets/image/image.php:93, widgets/image/image.php:207, widgets/image-grid/image-grid.php:151, widgets/image-grid/image-grid.php:162, widgets/image-grid/image-grid.php:199, widgets/simple-masonry/simple-masonry.php:159, widgets/social-media-buttons/social-media-buttons.php:195, widgets/social-media-buttons/social-media-buttons.php:206, base/inc/widgets/base-slider.class.php:142
 msgid "Center"
 msgstr ""
 
@@ -1069,11 +1061,11 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#: widgets/button-grid/button-grid.php:80, widgets/cta/cta.php:162, widgets/hero/hero.php:208, widgets/layout-slider/layout-slider.php:151, widgets/simple-masonry/simple-masonry.php:225
+#: widgets/button-grid/button-grid.php:80, widgets/cta/cta.php:162, widgets/hero/hero.php:208, widgets/layout-slider/layout-slider.php:151, widgets/simple-masonry/simple-masonry.php:226
 msgid "Layout"
 msgstr ""
 
-#: widgets/button-grid/button-grid.php:84, widgets/hero/hero.php:212, widgets/layout-slider/layout-slider.php:155, widgets/simple-masonry/simple-masonry.php:240, base/inc/widgets/base-carousel.class.php:207
+#: widgets/button-grid/button-grid.php:84, widgets/hero/hero.php:212, widgets/layout-slider/layout-slider.php:155, widgets/simple-masonry/simple-masonry.php:241, base/inc/widgets/base-carousel.class.php:207
 msgid "Desktop"
 msgstr ""
 
@@ -1097,7 +1089,7 @@ msgstr ""
 msgid "Column"
 msgstr ""
 
-#: widgets/button-grid/button-grid.php:114, widgets/hero/hero.php:248, widgets/layout-slider/layout-slider.php:191, widgets/simple-masonry/simple-masonry.php:295, base/inc/widgets/base-carousel.class.php:229
+#: widgets/button-grid/button-grid.php:114, widgets/hero/hero.php:248, widgets/layout-slider/layout-slider.php:191, widgets/simple-masonry/simple-masonry.php:296, base/inc/widgets/base-carousel.class.php:229
 msgid "Mobile"
 msgstr ""
 
@@ -1445,6 +1437,10 @@ msgstr ""
 msgid "Field labels"
 msgstr ""
 
+#: widgets/contact/contact.php:453, widgets/contact/contact.php:503, widgets/contact/contact.php:704, base/inc/widgets/base-carousel.class.php:398
+msgid "Font size"
+msgstr ""
+
 #: widgets/contact/contact.php:466, widgets/image/image.php:108, widgets/recent-posts/recent-posts.php:234
 msgid "Above"
 msgstr ""
@@ -1686,7 +1682,7 @@ msgstr ""
 msgid "Colors"
 msgstr ""
 
-#: widgets/cta/cta.php:102, widgets/image-grid/image-grid.php:229, widgets/simple-masonry/simple-masonry.php:188
+#: widgets/cta/cta.php:102, widgets/image-grid/image-grid.php:229, widgets/simple-masonry/simple-masonry.php:189
 msgid "Title Color"
 msgstr ""
 
@@ -1706,7 +1702,7 @@ msgstr ""
 msgid "Title Font Family"
 msgstr ""
 
-#: widgets/cta/cta.php:134, widgets/image-grid/image-grid.php:219, widgets/simple-masonry/simple-masonry.php:178
+#: widgets/cta/cta.php:134, widgets/image-grid/image-grid.php:219, widgets/simple-masonry/simple-masonry.php:179
 msgid "Title Font Size"
 msgstr ""
 
@@ -2701,15 +2697,15 @@ msgstr ""
 msgid "Alignment "
 msgstr ""
 
-#: widgets/image/image.php:405, widgets/image-grid/image-grid.php:441, widgets/simple-masonry/simple-masonry.php:497, widgets/slider/slider.php:373
+#: widgets/image/image.php:405, widgets/image-grid/image-grid.php:441, widgets/simple-masonry/simple-masonry.php:498, widgets/slider/slider.php:373
 msgid "Add a Lightbox to your images with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/image/image.php:410, widgets/image-grid/image-grid.php:446, widgets/simple-masonry/simple-masonry.php:502, widgets/slider/slider.php:378
+#: widgets/image/image.php:410, widgets/image-grid/image-grid.php:446, widgets/simple-masonry/simple-masonry.php:503, widgets/slider/slider.php:378
 msgid "Add a beautiful and customizable text overlay with animations to your images with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/image/image.php:415, widgets/image-grid/image-grid.php:451, widgets/simple-masonry/simple-masonry.php:512
+#: widgets/image/image.php:415, widgets/image-grid/image-grid.php:451, widgets/simple-masonry/simple-masonry.php:513
 msgid "Add an image title tooltip with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -2757,31 +2753,31 @@ msgstr ""
 msgid "Grid horizontal alignment"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:169, widgets/simple-masonry/simple-masonry.php:128
+#: widgets/image-grid/image-grid.php:169, widgets/simple-masonry/simple-masonry.php:129
 msgid "Display Image Title"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:181, widgets/simple-masonry/simple-masonry.php:140
+#: widgets/image-grid/image-grid.php:181, widgets/simple-masonry/simple-masonry.php:141
 msgid "Title Position"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:184, widgets/simple-masonry/simple-masonry.php:143
+#: widgets/image-grid/image-grid.php:184, widgets/simple-masonry/simple-masonry.php:144
 msgid "Above Image"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:185, widgets/simple-masonry/simple-masonry.php:144
+#: widgets/image-grid/image-grid.php:185, widgets/simple-masonry/simple-masonry.php:145
 msgid "Below Image"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:195, widgets/simple-masonry/simple-masonry.php:154
+#: widgets/image-grid/image-grid.php:195, widgets/simple-masonry/simple-masonry.php:155
 msgid "Title Alignment"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:210, widgets/simple-masonry/simple-masonry.php:169
+#: widgets/image-grid/image-grid.php:210, widgets/simple-masonry/simple-masonry.php:170
 msgid "Title Font"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:237, widgets/simple-masonry/simple-masonry.php:197
+#: widgets/image-grid/image-grid.php:237, widgets/simple-masonry/simple-masonry.php:198
 msgid "Title Padding"
 msgstr ""
 
@@ -2870,15 +2866,11 @@ msgid "SiteOrigin Post Carousel"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:199
-msgid "Arrow color"
+msgid "Arrow Color"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:204
-msgid "Arrow hover color"
-msgstr ""
-
-#: widgets/post-carousel/post-carousel.php:213
-msgid "Hover background"
+msgid "Arrow Hover Color"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:230
@@ -2886,11 +2878,11 @@ msgid "Post Thumbnail"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:235
-msgid "Thumbnail overlay hover color"
+msgid "Thumbnail Overlay Hover Color"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:240
-msgid "Thumbnail overlay hover opacity"
+msgid "Thumbnail Overlay Hover Opacity"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:253
@@ -2898,7 +2890,7 @@ msgid "Automatically return to the first post after the last post."
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:261
-msgid "Autoplay continuous scroll"
+msgid "Autoplay Continuous Scroll"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:279
@@ -2913,12 +2905,8 @@ msgstr ""
 msgid "Set Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:287
-msgid "Featured Image size"
-msgstr ""
-
 #: widgets/post-carousel/post-carousel.php:293
-msgid "Link target"
+msgid "Link Target"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:294
@@ -2933,12 +2921,8 @@ msgstr ""
 msgid "New window "
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:305
-msgid "Posts query"
-msgstr ""
-
 #: widgets/post-carousel/post-carousel.php:309
-msgid "Posts per load"
+msgid "Posts Per Load"
 msgstr ""
 
 #: widgets/post-carousel/post-carousel.php:310
@@ -3077,7 +3061,7 @@ msgstr ""
 msgid "Placement"
 msgstr ""
 
-#: widgets/recent-posts/recent-posts.php:242, widgets/simple-masonry/simple-masonry.php:256, widgets/simple-masonry/simple-masonry.php:287, widgets/simple-masonry/simple-masonry.php:318
+#: widgets/recent-posts/recent-posts.php:242, widgets/simple-masonry/simple-masonry.php:257, widgets/simple-masonry/simple-masonry.php:288, widgets/simple-masonry/simple-masonry.php:319
 msgid "Gutter"
 msgstr ""
 
@@ -3153,67 +3137,67 @@ msgstr ""
 msgid "Preloader"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:105
+#: widgets/simple-masonry/simple-masonry.php:106
 msgid "Enable preloader"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:109
+#: widgets/simple-masonry/simple-masonry.php:110
 msgid "Preloader icon color"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:114
+#: widgets/simple-masonry/simple-masonry.php:115
 msgid "Preloader height"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:116
+#: widgets/simple-masonry/simple-masonry.php:117
 msgid "The size of the preloader prior to the Masonry images showing."
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:123
+#: widgets/simple-masonry/simple-masonry.php:124
 msgid "Image Title"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:229
+#: widgets/simple-masonry/simple-masonry.php:230
 msgid "Origin"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:230
+#: widgets/simple-masonry/simple-masonry.php:231
 msgid "Controls the horizontal flow of the layout. Items can either start positioned on the left or right."
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:244, widgets/simple-masonry/simple-masonry.php:275, widgets/simple-masonry/simple-masonry.php:306
+#: widgets/simple-masonry/simple-masonry.php:245, widgets/simple-masonry/simple-masonry.php:276, widgets/simple-masonry/simple-masonry.php:307
 msgid "Number of columns"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:251, widgets/simple-masonry/simple-masonry.php:282, widgets/simple-masonry/simple-masonry.php:313
+#: widgets/simple-masonry/simple-masonry.php:252, widgets/simple-masonry/simple-masonry.php:283, widgets/simple-masonry/simple-masonry.php:314
 msgid "Row height"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:252, widgets/simple-masonry/simple-masonry.php:283, widgets/simple-masonry/simple-masonry.php:314
+#: widgets/simple-masonry/simple-masonry.php:253, widgets/simple-masonry/simple-masonry.php:284, widgets/simple-masonry/simple-masonry.php:315
 msgid "Leave blank to match calculated column width."
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:257, widgets/simple-masonry/simple-masonry.php:288, widgets/simple-masonry/simple-masonry.php:319
+#: widgets/simple-masonry/simple-masonry.php:258, widgets/simple-masonry/simple-masonry.php:289, widgets/simple-masonry/simple-masonry.php:320
 msgid "Space between masonry items."
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:264, widgets/testimonial/testimonial.php:117, base/inc/widgets/base-carousel.class.php:212
+#: widgets/simple-masonry/simple-masonry.php:265, widgets/testimonial/testimonial.php:117, base/inc/widgets/base-carousel.class.php:212
 msgid "Tablet"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:269, widgets/simple-masonry/simple-masonry.php:300, base/inc/widgets/base-carousel.class.php:142
+#: widgets/simple-masonry/simple-masonry.php:270, widgets/simple-masonry/simple-masonry.php:301, base/inc/widgets/base-carousel.class.php:142
 msgid "Breakpoint"
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:270
+#: widgets/simple-masonry/simple-masonry.php:271
 msgid "Device width, in pixels, at which to collapse into a tablet view."
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:301
+#: widgets/simple-masonry/simple-masonry.php:302
 msgid "Device width, in pixels, at which to collapse into a mobile view."
 msgstr ""
 
-#: widgets/simple-masonry/simple-masonry.php:507
+#: widgets/simple-masonry/simple-masonry.php:508
 msgid "Add multiple Simple Masonry frames in one go with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -3906,15 +3890,15 @@ msgid "Hexagon"
 msgstr ""
 
 #: base/inc/widgets/base-carousel.class.php:93, base/inc/widgets/base-carousel.class.php:300
-msgid "Navigation arrows"
+msgid "Navigation Arrows"
 msgstr ""
 
 #: base/inc/widgets/base-carousel.class.php:100, base/inc/widgets/base-carousel.class.php:288
-msgid "Navigation dots"
+msgid "Navigation Dots"
 msgstr ""
 
 #: base/inc/widgets/base-carousel.class.php:149
-msgid "Slides to scroll"
+msgid "Slides to Scroll"
 msgstr ""
 
 #: base/inc/widgets/base-carousel.class.php:152
@@ -3922,7 +3906,7 @@ msgid "Set the number of slides to scroll per navigation click or swipe on %s"
 msgstr ""
 
 #: base/inc/widgets/base-carousel.class.php:162
-msgid "Slides to show "
+msgid "Slides to Show "
 msgstr ""
 
 #: base/inc/widgets/base-carousel.class.php:164
@@ -3957,12 +3941,12 @@ msgstr ""
 msgid "Linear"
 msgstr ""
 
-#: base/inc/widgets/base-carousel.class.php:321, base/inc/widgets/base-slider.class.php:82
-msgid "Animation speed"
+#: base/inc/widgets/base-carousel.class.php:321
+msgid "Animation Speed"
 msgstr ""
 
-#: base/inc/widgets/base-carousel.class.php:337, base/inc/widgets/base-slider.class.php:73
-msgid "Autoplay pause on hover"
+#: base/inc/widgets/base-carousel.class.php:337
+msgid "Autoplay Pause on Hover"
 msgstr ""
 
 #: base/inc/widgets/base-carousel.class.php:346, base/inc/widgets/base-slider.class.php:89
@@ -3991,6 +3975,14 @@ msgstr ""
 
 #: base/inc/widgets/base-slider.class.php:60
 msgid "Change slides automatically without user interaction."
+msgstr ""
+
+#: base/inc/widgets/base-slider.class.php:73
+msgid "Autoplay pause on hover"
+msgstr ""
+
+#: base/inc/widgets/base-slider.class.php:82
+msgid "Animation speed"
 msgstr ""
 
 #: base/inc/widgets/base-slider.class.php:83
