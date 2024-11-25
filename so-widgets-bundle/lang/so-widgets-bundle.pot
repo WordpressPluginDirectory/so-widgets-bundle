@@ -64,15 +64,15 @@ msgstr ""
 msgid "Deactivated"
 msgstr ""
 
-#: so-widgets-bundle.php:839
+#: so-widgets-bundle.php:841
 msgid "Manage Widgets"
 msgstr ""
 
-#: so-widgets-bundle.php:840
+#: so-widgets-bundle.php:842
 msgid "Support"
 msgstr ""
 
-#: so-widgets-bundle.php:843
+#: so-widgets-bundle.php:845
 msgid "Addons"
 msgstr ""
 
@@ -128,7 +128,7 @@ msgstr ""
 msgid "Clicking %s will replace the current widget contents. You can revert by refreshing the page before updating."
 msgstr ""
 
-#: base/siteorigin-widget.class.php:689, base/inc/actions.php:53
+#: base/siteorigin-widget.class.php:690, base/inc/actions.php:53
 msgid "Widget Preview"
 msgstr ""
 
@@ -192,43 +192,43 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: admin/tpl/admin.php:77
+#: admin/tpl/admin.php:78
 msgid "Activate"
 msgstr ""
 
-#: admin/tpl/admin.php:81
+#: admin/tpl/admin.php:82
 msgid "Deactivate"
 msgstr ""
 
-#: admin/tpl/admin.php:103, widgets/author-box/author-box.php:42, widgets/blog/blog.php:98, widgets/contact/contact.php:75, widgets/google-map/google-map.php:57, widgets/image-grid/image-grid.php:92, widgets/recent-posts/recent-posts.php:62, widgets/testimonial/testimonial.php:99, base/inc/widgets/base-carousel.class.php:270
+#: admin/tpl/admin.php:105, widgets/author-box/author-box.php:42, widgets/blog/blog.php:98, widgets/contact/contact.php:75, widgets/google-map/google-map.php:57, widgets/image-grid/image-grid.php:92, widgets/recent-posts/recent-posts.php:62, widgets/testimonial/testimonial.php:99, base/inc/widgets/base-carousel.class.php:270
 msgid "Settings"
 msgstr ""
 
-#: admin/tpl/admin.php:111
+#: admin/tpl/admin.php:113
 msgid "Documentation"
 msgstr ""
 
-#: admin/tpl/admin.php:126
+#: admin/tpl/admin.php:128
 msgid "General Widget Bundle Settings"
 msgstr ""
 
-#: admin/tpl/admin.php:131
+#: admin/tpl/admin.php:133
 msgid "Enable SiteOrigin Installer: "
 msgstr ""
 
-#: admin/tpl/admin.php:146
+#: admin/tpl/admin.php:148
 msgid "Developers - create your own widgets for the Widgets Bundle."
 msgstr ""
 
-#: admin/tpl/admin.php:147, widgets/editor/editor.php:144
+#: admin/tpl/admin.php:149, widgets/editor/editor.php:144
 msgid "Read More"
 msgstr ""
 
-#: admin/tpl/admin.php:154
+#: admin/tpl/admin.php:156
 msgid "Widget Settings"
 msgstr ""
 
-#: admin/tpl/admin.php:166
+#: admin/tpl/admin.php:168
 msgid "Save"
 msgstr ""
 
@@ -256,23 +256,23 @@ msgstr ""
 msgid "Widgets Bundle Post Meta Data"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:77, compat/block-editor/widget-block.php:113
+#: compat/block-editor/widget-block.php:79, compat/block-editor/widget-block.php:115
 msgid "%s by %s"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:133, compat/visual-composer/visual-composer.php:74
+#: compat/block-editor/widget-block.php:135, compat/visual-composer/visual-composer.php:74
 msgid "Selecting a different widget will revert any changes. Continue?"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:154
+#: compat/block-editor/widget-block.php:156
 msgid "You need to select a widget type before you'll see anything here. :)"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:258
+#: compat/block-editor/widget-block.php:260
 msgid "Invalid widget class %s. Please make sure the widget has been activated in %sSiteOrigin Widgets%s."
 msgstr ""
 
-#: compat/block-editor/widget-block.php:318
+#: compat/block-editor/widget-block.php:320
 msgid "Invalid Widgets Bundle data"
 msgstr ""
 
@@ -284,15 +284,15 @@ msgstr ""
 msgid "Allows you to add any active SiteOrigin Widgets Bundle widgets."
 msgstr ""
 
-#: icons/fontawesome/filter.php:1897, icons/materialicons/filter.php:4
+#: icons/fontawesome/filter.php:1905, icons/materialicons/filter.php:4
 msgid "Regular"
 msgstr ""
 
-#: icons/fontawesome/filter.php:1898, widgets/contact/contact.php:431, widgets/contact/contact.php:572, widgets/contact/contact.php:680, widgets/contact/contact.php:758, widgets/headline/headline.php:217, widgets/recent-posts/recent-posts.php:265
+#: icons/fontawesome/filter.php:1906, widgets/contact/contact.php:431, widgets/contact/contact.php:572, widgets/contact/contact.php:680, widgets/contact/contact.php:758, widgets/headline/headline.php:217, widgets/recent-posts/recent-posts.php:265
 msgid "Solid"
 msgstr ""
 
-#: icons/fontawesome/filter.php:1899
+#: icons/fontawesome/filter.php:1907
 msgid "Brands"
 msgstr ""
 
@@ -324,7 +324,7 @@ msgstr ""
 msgid "When opening the panel, scroll the user to the top of the panel."
 msgstr ""
 
-#: widgets/accordion/accordion.php:70, widgets/accordion/accordion.php:83, widgets/anything-carousel/anything-carousel.php:65, widgets/anything-carousel/anything-carousel.php:81, widgets/blog/blog.php:84, widgets/contact/contact.php:64, widgets/cta/cta.php:74, widgets/editor/editor.php:33, widgets/features/features.php:139, widgets/icon/icon.php:66, widgets/post-carousel/post-carousel.php:273, widgets/price-table/price-table.php:42, widgets/price-table/price-table.php:61, widgets/recent-posts/recent-posts.php:58, widgets/simple-masonry/simple-masonry.php:42, widgets/simple-masonry/simple-masonry.php:84, widgets/social-media-buttons/social-media-buttons.php:52, widgets/tabs/tabs.php:71, widgets/tabs/tabs.php:84, widgets/taxonomy/taxonomy.php:32, widgets/testimonial/testimonial.php:39, widgets/video/video.php:30, base/inc/fields/posts.class.php:113
+#: widgets/accordion/accordion.php:70, widgets/accordion/accordion.php:83, widgets/anything-carousel/anything-carousel.php:65, widgets/anything-carousel/anything-carousel.php:81, widgets/blog/blog.php:84, widgets/contact/contact.php:64, widgets/cta/cta.php:74, widgets/editor/editor.php:33, widgets/features/features.php:139, widgets/icon/icon.php:66, widgets/post-carousel/post-carousel.php:277, widgets/price-table/price-table.php:42, widgets/price-table/price-table.php:61, widgets/recent-posts/recent-posts.php:58, widgets/simple-masonry/simple-masonry.php:42, widgets/simple-masonry/simple-masonry.php:84, widgets/social-media-buttons/social-media-buttons.php:52, widgets/tabs/tabs.php:71, widgets/tabs/tabs.php:84, widgets/taxonomy/taxonomy.php:32, widgets/testimonial/testimonial.php:39, widgets/video/video.php:30, base/inc/fields/posts.class.php:113
 msgid "Title"
 msgstr ""
 
@@ -428,27 +428,27 @@ msgstr ""
 msgid "Item"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:96, widgets/author-box/author-box.php:191, widgets/recent-posts/recent-posts.php:215
+#: widgets/anything-carousel/anything-carousel.php:96, widgets/author-box/author-box.php:205, widgets/recent-posts/recent-posts.php:215
 msgid "Bottom Margin"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:108, widgets/author-box/author-box.php:172, widgets/author-box/author-box.php:203, widgets/author-box/author-box.php:238, widgets/blog/blog.php:263, widgets/blog/blog.php:290, widgets/blog/blog.php:317, widgets/blog/blog.php:354, widgets/blog/blog.php:393, widgets/blog/blog.php:425, widgets/blog/blog.php:592, widgets/button/button.php:197, widgets/contact/contact.php:448, widgets/contact/contact.php:498, widgets/features/features.php:157, widgets/features/features.php:178, widgets/features/features.php:199, widgets/headline/headline.php:86, widgets/headline/headline.php:167, widgets/recent-posts/recent-posts.php:306, widgets/recent-posts/recent-posts.php:332, widgets/recent-posts/recent-posts.php:357, widgets/recent-posts/recent-posts.php:382, base/inc/widgets/base-carousel.class.php:394
+#: widgets/anything-carousel/anything-carousel.php:108, widgets/author-box/author-box.php:186, widgets/author-box/author-box.php:217, widgets/author-box/author-box.php:252, widgets/blog/blog.php:263, widgets/blog/blog.php:290, widgets/blog/blog.php:317, widgets/blog/blog.php:354, widgets/blog/blog.php:393, widgets/blog/blog.php:425, widgets/blog/blog.php:592, widgets/button/button.php:197, widgets/contact/contact.php:448, widgets/contact/contact.php:498, widgets/features/features.php:157, widgets/features/features.php:178, widgets/features/features.php:199, widgets/headline/headline.php:86, widgets/headline/headline.php:167, widgets/recent-posts/recent-posts.php:306, widgets/recent-posts/recent-posts.php:332, widgets/recent-posts/recent-posts.php:357, widgets/recent-posts/recent-posts.php:382, base/inc/widgets/base-carousel.class.php:394
 msgid "Font"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:112, widgets/author-box/author-box.php:176, widgets/author-box/author-box.php:207, widgets/author-box/author-box.php:242, widgets/blog/blog.php:267, widgets/blog/blog.php:294, widgets/blog/blog.php:321, widgets/blog/blog.php:358, widgets/blog/blog.php:397, widgets/blog/blog.php:433, widgets/blog/blog.php:596, widgets/button/button.php:203, widgets/headline/headline.php:91, widgets/headline/headline.php:172, widgets/recent-posts/recent-posts.php:310, widgets/recent-posts/recent-posts.php:336, widgets/recent-posts/recent-posts.php:361, widgets/recent-posts/recent-posts.php:386
+#: widgets/anything-carousel/anything-carousel.php:112, widgets/author-box/author-box.php:190, widgets/author-box/author-box.php:221, widgets/author-box/author-box.php:256, widgets/blog/blog.php:267, widgets/blog/blog.php:294, widgets/blog/blog.php:321, widgets/blog/blog.php:358, widgets/blog/blog.php:397, widgets/blog/blog.php:433, widgets/blog/blog.php:596, widgets/button/button.php:203, widgets/headline/headline.php:91, widgets/headline/headline.php:172, widgets/recent-posts/recent-posts.php:310, widgets/recent-posts/recent-posts.php:336, widgets/recent-posts/recent-posts.php:361, widgets/recent-posts/recent-posts.php:386
 msgid "Font Size"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:116, widgets/author-box/author-box.php:181, widgets/author-box/author-box.php:212, widgets/author-box/author-box.php:247, widgets/blog/blog.php:272, widgets/blog/blog.php:299, widgets/blog/blog.php:326, widgets/blog/blog.php:363, widgets/blog/blog.php:402, widgets/blog/blog.php:451, widgets/contact/contact.php:458, widgets/contact/contact.php:601, widgets/contact/contact.php:770, widgets/features/features.php:166, widgets/features/features.php:187, widgets/features/features.php:208, widgets/google-map/google-map.php:362, widgets/headline/headline.php:78, widgets/headline/headline.php:159, widgets/headline/headline.php:229, widgets/icon/icon.php:34, widgets/price-table/price-table.php:174, widgets/price-table/price-table.php:192, widgets/price-table/price-table.php:209, widgets/recent-posts/recent-posts.php:315, widgets/recent-posts/recent-posts.php:341, widgets/recent-posts/recent-posts.php:366, widgets/recent-posts/recent-posts.php:391, widgets/recent-posts/recent-posts.php:454, widgets/taxonomy/taxonomy.php:54, base/inc/widgets/base-carousel.class.php:402
+#: widgets/anything-carousel/anything-carousel.php:116, widgets/author-box/author-box.php:195, widgets/author-box/author-box.php:226, widgets/author-box/author-box.php:261, widgets/blog/blog.php:272, widgets/blog/blog.php:299, widgets/blog/blog.php:326, widgets/blog/blog.php:363, widgets/blog/blog.php:402, widgets/blog/blog.php:451, widgets/contact/contact.php:458, widgets/contact/contact.php:601, widgets/contact/contact.php:770, widgets/features/features.php:166, widgets/features/features.php:187, widgets/features/features.php:208, widgets/google-map/google-map.php:362, widgets/headline/headline.php:78, widgets/headline/headline.php:159, widgets/headline/headline.php:229, widgets/icon/icon.php:34, widgets/price-table/price-table.php:174, widgets/price-table/price-table.php:192, widgets/price-table/price-table.php:209, widgets/recent-posts/recent-posts.php:315, widgets/recent-posts/recent-posts.php:341, widgets/recent-posts/recent-posts.php:366, widgets/recent-posts/recent-posts.php:391, widgets/recent-posts/recent-posts.php:454, widgets/taxonomy/taxonomy.php:54, base/inc/widgets/base-carousel.class.php:402
 msgid "Color"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:120, widgets/author-box/author-box.php:222, widgets/contact/contact.php:511, widgets/social-media-buttons/social-media-buttons.php:212
+#: widgets/anything-carousel/anything-carousel.php:120, widgets/author-box/author-box.php:236, widgets/contact/contact.php:511, widgets/social-media-buttons/social-media-buttons.php:212
 msgid "Margin"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:125, widgets/author-box/author-box.php:111, widgets/author-box/author-box.php:122, widgets/author-box/author-box.php:225, widgets/button/button.php:101, widgets/button/button.php:225, widgets/contact/contact.php:515, widgets/features/features.php:71, widgets/image-grid/image-grid.php:130, widgets/image-grid/image-grid.php:150, widgets/image-grid/image-grid.php:243, widgets/simple-masonry/simple-masonry.php:204
+#: widgets/anything-carousel/anything-carousel.php:125, widgets/author-box/author-box.php:111, widgets/author-box/author-box.php:122, widgets/author-box/author-box.php:239, widgets/button/button.php:101, widgets/button/button.php:225, widgets/contact/contact.php:515, widgets/features/features.php:71, widgets/image-grid/image-grid.php:130, widgets/image-grid/image-grid.php:150, widgets/image-grid/image-grid.php:243, widgets/simple-masonry/simple-masonry.php:204
 msgid "Top"
 msgstr ""
 
@@ -456,7 +456,7 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:133, widgets/author-box/author-box.php:113, widgets/author-box/author-box.php:124, widgets/author-box/author-box.php:226, widgets/button/button.php:103, widgets/button/button.php:231, widgets/contact/contact.php:523, widgets/features/features.php:73, widgets/image-grid/image-grid.php:136, widgets/image-grid/image-grid.php:152, widgets/image-grid/image-grid.php:249, widgets/simple-masonry/simple-masonry.php:210
+#: widgets/anything-carousel/anything-carousel.php:133, widgets/author-box/author-box.php:113, widgets/author-box/author-box.php:124, widgets/author-box/author-box.php:240, widgets/button/button.php:103, widgets/button/button.php:231, widgets/contact/contact.php:523, widgets/features/features.php:73, widgets/image-grid/image-grid.php:136, widgets/image-grid/image-grid.php:152, widgets/image-grid/image-grid.php:249, widgets/simple-masonry/simple-masonry.php:210
 msgid "Bottom"
 msgstr ""
 
@@ -464,7 +464,7 @@ msgstr ""
 msgid "Left"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:146, widgets/post-carousel/post-carousel.php:194
+#: widgets/anything-carousel/anything-carousel.php:146, widgets/post-carousel/post-carousel.php:198
 msgid "Navigation"
 msgstr ""
 
@@ -528,7 +528,7 @@ msgstr ""
 msgid "Add All Posts by Author Link"
 msgstr ""
 
-#: widgets/author-box/author-box.php:75, widgets/author-box/author-box.php:233
+#: widgets/author-box/author-box.php:75, widgets/author-box/author-box.php:247
 msgid "Author Bio"
 msgstr ""
 
@@ -536,7 +536,7 @@ msgstr ""
 msgid "Container"
 msgstr ""
 
-#: widgets/author-box/author-box.php:91, widgets/blog/blog.php:373, widgets/blog/blog.php:577, widgets/contact/contact.php:551, widgets/hero/hero.php:109, widgets/layout-slider/layout-slider.php:76, widgets/post-carousel/post-carousel.php:208
+#: widgets/author-box/author-box.php:91, widgets/blog/blog.php:373, widgets/blog/blog.php:577, widgets/contact/contact.php:551, widgets/hero/hero.php:109, widgets/layout-slider/layout-slider.php:76, widgets/post-carousel/post-carousel.php:212
 msgid "Background"
 msgstr ""
 
@@ -568,23 +568,55 @@ msgstr ""
 msgid "Author Name"
 msgstr ""
 
-#: widgets/author-box/author-box.php:186, widgets/author-box/author-box.php:217, widgets/blog/blog.php:277, widgets/blog/blog.php:304, widgets/blog/blog.php:368, widgets/blog/blog.php:460, widgets/headline/headline.php:82, widgets/headline/headline.php:163, widgets/recent-posts/recent-posts.php:320
+#: widgets/author-box/author-box.php:172, widgets/headline/headline.php:64, widgets/headline/headline.php:145, base/inc/widgets/base-carousel.class.php:380
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/author-box/author-box.php:175, widgets/blog/blog.php:140, widgets/cta/cta.php:119, widgets/cta/cta.php:141, widgets/features/features.php:147, widgets/headline/headline.php:67, widgets/headline/headline.php:148, widgets/recent-posts/recent-posts.php:97, base/inc/widgets/base-carousel.class.php:383
+msgid "H1"
+msgstr ""
+
+#: widgets/author-box/author-box.php:176, widgets/blog/blog.php:141, widgets/cta/cta.php:120, widgets/cta/cta.php:142, widgets/features/features.php:148, widgets/headline/headline.php:68, widgets/headline/headline.php:149, widgets/recent-posts/recent-posts.php:98, base/inc/widgets/base-carousel.class.php:384
+msgid "H2"
+msgstr ""
+
+#: widgets/author-box/author-box.php:177, widgets/blog/blog.php:142, widgets/cta/cta.php:121, widgets/cta/cta.php:143, widgets/features/features.php:149, widgets/headline/headline.php:69, widgets/headline/headline.php:150, widgets/recent-posts/recent-posts.php:99, base/inc/widgets/base-carousel.class.php:385
+msgid "H3"
+msgstr ""
+
+#: widgets/author-box/author-box.php:178, widgets/blog/blog.php:143, widgets/cta/cta.php:122, widgets/cta/cta.php:144, widgets/features/features.php:150, widgets/headline/headline.php:70, widgets/headline/headline.php:151, widgets/recent-posts/recent-posts.php:100, base/inc/widgets/base-carousel.class.php:386
+msgid "H4"
+msgstr ""
+
+#: widgets/author-box/author-box.php:179, widgets/blog/blog.php:144, widgets/cta/cta.php:123, widgets/cta/cta.php:145, widgets/features/features.php:151, widgets/headline/headline.php:71, widgets/headline/headline.php:152, widgets/recent-posts/recent-posts.php:101, base/inc/widgets/base-carousel.class.php:387
+msgid "H5"
+msgstr ""
+
+#: widgets/author-box/author-box.php:180, widgets/blog/blog.php:145, widgets/cta/cta.php:124, widgets/cta/cta.php:146, widgets/features/features.php:152, widgets/headline/headline.php:72, widgets/headline/headline.php:153, widgets/recent-posts/recent-posts.php:102, base/inc/widgets/base-carousel.class.php:388
+msgid "H6"
+msgstr ""
+
+#: widgets/author-box/author-box.php:181, widgets/blog/blog.php:146, widgets/cta/cta.php:125, widgets/cta/cta.php:147, widgets/headline/headline.php:73, widgets/headline/headline.php:154, widgets/recent-posts/recent-posts.php:103, base/inc/widgets/base-carousel.class.php:389
+msgid "Paragraph"
+msgstr ""
+
+#: widgets/author-box/author-box.php:200, widgets/author-box/author-box.php:231, widgets/blog/blog.php:277, widgets/blog/blog.php:304, widgets/blog/blog.php:368, widgets/blog/blog.php:460, widgets/headline/headline.php:82, widgets/headline/headline.php:163, widgets/recent-posts/recent-posts.php:320
 msgid "Hover Color"
 msgstr ""
 
-#: widgets/author-box/author-box.php:198
+#: widgets/author-box/author-box.php:212
 msgid "Author All Posts Link"
 msgstr ""
 
-#: widgets/author-box/author-box.php:252, widgets/blog/blog.php:331, widgets/blog/blog.php:407, widgets/blog/blog.php:601
+#: widgets/author-box/author-box.php:266, widgets/blog/blog.php:331, widgets/blog/blog.php:407, widgets/blog/blog.php:601
 msgid "Link Color"
 msgstr ""
 
-#: widgets/author-box/author-box.php:257, widgets/blog/blog.php:412, widgets/blog/blog.php:606
+#: widgets/author-box/author-box.php:271, widgets/blog/blog.php:412, widgets/blog/blog.php:606
 msgid "Link Hover Color"
 msgstr ""
 
-#: widgets/author-box/author-box.php:359
+#: widgets/author-box/author-box.php:379
 msgid "%sSiteOrigin Premium%s adds depth to the Author Box Widget with placement options, author bios, recent post visibility, social buttons, and design customizations. Enjoy centralized global control of author boxes"
 msgstr ""
 
@@ -612,40 +644,12 @@ msgstr ""
 msgid "Skip Post if No Featured Image"
 msgstr ""
 
-#: widgets/blog/blog.php:128, widgets/post-carousel/post-carousel.php:287
+#: widgets/blog/blog.php:128, widgets/post-carousel/post-carousel.php:291
 msgid "Featured Image Size"
 msgstr ""
 
 #: widgets/blog/blog.php:137, widgets/recent-posts/recent-posts.php:90
 msgid "Post Title HTML Tag"
-msgstr ""
-
-#: widgets/blog/blog.php:140, widgets/cta/cta.php:119, widgets/cta/cta.php:141, widgets/features/features.php:147, widgets/headline/headline.php:67, widgets/headline/headline.php:148, widgets/recent-posts/recent-posts.php:97, base/inc/widgets/base-carousel.class.php:383
-msgid "H1"
-msgstr ""
-
-#: widgets/blog/blog.php:141, widgets/cta/cta.php:120, widgets/cta/cta.php:142, widgets/features/features.php:148, widgets/headline/headline.php:68, widgets/headline/headline.php:149, widgets/recent-posts/recent-posts.php:98, base/inc/widgets/base-carousel.class.php:384
-msgid "H2"
-msgstr ""
-
-#: widgets/blog/blog.php:142, widgets/cta/cta.php:121, widgets/cta/cta.php:143, widgets/features/features.php:149, widgets/headline/headline.php:69, widgets/headline/headline.php:150, widgets/recent-posts/recent-posts.php:99, base/inc/widgets/base-carousel.class.php:385
-msgid "H3"
-msgstr ""
-
-#: widgets/blog/blog.php:143, widgets/cta/cta.php:122, widgets/cta/cta.php:144, widgets/features/features.php:150, widgets/headline/headline.php:70, widgets/headline/headline.php:151, widgets/recent-posts/recent-posts.php:100, base/inc/widgets/base-carousel.class.php:386
-msgid "H4"
-msgstr ""
-
-#: widgets/blog/blog.php:144, widgets/cta/cta.php:123, widgets/cta/cta.php:145, widgets/features/features.php:151, widgets/headline/headline.php:71, widgets/headline/headline.php:152, widgets/recent-posts/recent-posts.php:101, base/inc/widgets/base-carousel.class.php:387
-msgid "H5"
-msgstr ""
-
-#: widgets/blog/blog.php:145, widgets/cta/cta.php:124, widgets/cta/cta.php:146, widgets/features/features.php:152, widgets/headline/headline.php:72, widgets/headline/headline.php:153, widgets/recent-posts/recent-posts.php:102, base/inc/widgets/base-carousel.class.php:388
-msgid "H6"
-msgstr ""
-
-#: widgets/blog/blog.php:146, widgets/cta/cta.php:125, widgets/cta/cta.php:147, widgets/headline/headline.php:73, widgets/headline/headline.php:154, widgets/recent-posts/recent-posts.php:103, base/inc/widgets/base-carousel.class.php:389
-msgid "Paragraph"
 msgstr ""
 
 #: widgets/blog/blog.php:151
@@ -716,7 +720,7 @@ msgstr ""
 msgid "Background Color"
 msgstr ""
 
-#: widgets/blog/blog.php:258, widgets/post-carousel/post-carousel.php:222, widgets/recent-posts/recent-posts.php:78, widgets/recent-posts/recent-posts.php:297
+#: widgets/blog/blog.php:258, widgets/post-carousel/post-carousel.php:226, widgets/recent-posts/recent-posts.php:78, widgets/recent-posts/recent-posts.php:297
 msgid "Post Title"
 msgstr ""
 
@@ -740,7 +744,7 @@ msgstr ""
 msgid "Overlay Post Category"
 msgstr ""
 
-#: widgets/blog/blog.php:379, widgets/blog/blog.php:581, widgets/post-carousel/post-carousel.php:213
+#: widgets/blog/blog.php:379, widgets/blog/blog.php:581, widgets/post-carousel/post-carousel.php:217
 msgid "Hover Background"
 msgstr ""
 
@@ -828,7 +832,7 @@ msgstr ""
 msgid "Height"
 msgstr ""
 
-#: widgets/blog/blog.php:633, widgets/post-carousel/post-carousel.php:305, widgets/recent-posts/recent-posts.php:467
+#: widgets/blog/blog.php:633, widgets/post-carousel/post-carousel.php:309, widgets/recent-posts/recent-posts.php:467
 msgid "Posts Query"
 msgstr ""
 
@@ -1070,7 +1074,7 @@ msgid "Desktop"
 msgstr ""
 
 #: widgets/button-grid/button-grid.php:88, widgets/button-grid/button-grid.php:118
-msgid "Buttons Per Line"
+msgid "Buttons Per Row"
 msgstr ""
 
 #: widgets/button-grid/button-grid.php:93, widgets/button-grid/button-grid.php:123
@@ -2381,10 +2385,6 @@ msgstr ""
 msgid "Headline"
 msgstr ""
 
-#: widgets/headline/headline.php:64, widgets/headline/headline.php:145, base/inc/widgets/base-carousel.class.php:380
-msgid "HTML Tag"
-msgstr ""
-
 #: widgets/headline/headline.php:95, widgets/headline/headline.php:176, widgets/headline/headline.php:241, widgets/icon/icon.php:44
 msgid "Alignment"
 msgstr ""
@@ -2697,15 +2697,15 @@ msgstr ""
 msgid "Alignment "
 msgstr ""
 
-#: widgets/image/image.php:405, widgets/image-grid/image-grid.php:441, widgets/simple-masonry/simple-masonry.php:498, widgets/slider/slider.php:373
+#: widgets/image/image.php:405, widgets/image-grid/image-grid.php:438, widgets/simple-masonry/simple-masonry.php:498, widgets/slider/slider.php:373
 msgid "Add a Lightbox to your images with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/image/image.php:410, widgets/image-grid/image-grid.php:446, widgets/simple-masonry/simple-masonry.php:503, widgets/slider/slider.php:378
+#: widgets/image/image.php:410, widgets/image-grid/image-grid.php:443, widgets/simple-masonry/simple-masonry.php:503, widgets/slider/slider.php:378
 msgid "Add a beautiful and customizable text overlay with animations to your images with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/image/image.php:415, widgets/image-grid/image-grid.php:451, widgets/simple-masonry/simple-masonry.php:513
+#: widgets/image/image.php:415, widgets/image-grid/image-grid.php:448, widgets/simple-masonry/simple-masonry.php:513
 msgid "Add an image title tooltip with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -2781,7 +2781,7 @@ msgstr ""
 msgid "Title Padding"
 msgstr ""
 
-#: widgets/image-grid/image-grid.php:456
+#: widgets/image-grid/image-grid.php:453
 msgid "Add multiple Image Grid frames in one go with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -2865,71 +2865,71 @@ msgstr ""
 msgid "SiteOrigin Post Carousel"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:199
+#: widgets/post-carousel/post-carousel.php:203
 msgid "Arrow Color"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:204
+#: widgets/post-carousel/post-carousel.php:208
 msgid "Arrow Hover Color"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:230
+#: widgets/post-carousel/post-carousel.php:234
 msgid "Post Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:235
+#: widgets/post-carousel/post-carousel.php:239
 msgid "Thumbnail Overlay Hover Color"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:240
+#: widgets/post-carousel/post-carousel.php:244
 msgid "Thumbnail Overlay Hover Opacity"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:253
+#: widgets/post-carousel/post-carousel.php:257
 msgid "Automatically return to the first post after the last post."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:261
+#: widgets/post-carousel/post-carousel.php:265
 msgid "Autoplay Continuous Scroll"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:279
+#: widgets/post-carousel/post-carousel.php:283
 msgid "Default Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:280
+#: widgets/post-carousel/post-carousel.php:284
 msgid "Choose Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:281
+#: widgets/post-carousel/post-carousel.php:285
 msgid "Set Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:293
+#: widgets/post-carousel/post-carousel.php:297
 msgid "Link Target"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:294
+#: widgets/post-carousel/post-carousel.php:298
 msgid "Choose where to open each carousel item."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:296
+#: widgets/post-carousel/post-carousel.php:300
 msgid "Same window "
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:297
+#: widgets/post-carousel/post-carousel.php:301
 msgid "New window "
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:309
+#: widgets/post-carousel/post-carousel.php:313
 msgid "Posts Per Load"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:310
+#: widgets/post-carousel/post-carousel.php:314
 msgid "Set the number of posts preloaded in the background when clicking next. The default is 10."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:469
+#: widgets/post-carousel/post-carousel.php:486
 msgid "Get access to additional carousel themes with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -3595,7 +3595,7 @@ msgstr ""
 msgid "This field does not have a type. Please specify a type for it to be rendered correctly."
 msgstr ""
 
-#: base/inc/fields/font.class.php:16
+#: base/inc/fields/font.class.php:21
 msgid "Use theme font"
 msgstr ""
 
