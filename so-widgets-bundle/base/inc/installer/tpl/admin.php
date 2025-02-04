@@ -2,13 +2,13 @@
 	<div class="siteorigin-installer-header">
 		<h1 class="siteorigin-logo">
 			<img src="<?php echo esc_url( plugin_dir_url( __FILE__ ) ) . '../img/siteorigin.svg'; ?>" />
-			<?php esc_html_e( 'SiteOrigin Installer', 'siteorigin-installer' ); ?>
+			<?php esc_html_e( 'SiteOrigin Installer', 'so-widgets-bundle' ); ?>
 		</h1>
 
 		<ul class="page-sections">
-			<li><a href="#" data-section="plugins"><?php esc_html_e( 'Plugins', 'siteorigin-installer' ); ?></a></li>
-			<li><a href="#" data-section="themes"><?php esc_html_e( 'Themes', 'siteorigin-installer' ); ?></a></li>
-			<li class="active-section"><a href="#" data-section="all"><?php esc_html_e( 'All', 'siteorigin-installer' ); ?></a></li>
+			<li><a href="#" data-section="plugins"><?php esc_html_e( 'Plugins', 'so-widgets-bundle' ); ?></a></li>
+			<li><a href="#" data-section="themes"><?php esc_html_e( 'Themes', 'so-widgets-bundle' ); ?></a></li>
+			<li class="active-section"><a href="#" data-section="all"><?php esc_html_e( 'All', 'so-widgets-bundle' ); ?></a></li>
 		</ul>
 	</div>
 
@@ -42,8 +42,8 @@
 							if ( ! empty( $highlight ) && $slug == $highlight ) {
 								echo '<span class="siteorigin-required">';
 								printf(
-									esc_html__( 'Required %s', 'siteorigin-installer' ),
-									$item['type'] == 'plugins' ? esc_html__( 'Plugin', 'siteorigin-installer' ) : esc_html__( 'Theme', 'siteorigin-installer' )
+									esc_html__( 'Required %s', 'so-widgets-bundle' ),
+									$item['type'] == 'plugins' ? esc_html__( 'Plugin', 'so-widgets-bundle' ) : esc_html__( 'Theme', 'so-widgets-bundle' )
 								);
 								echo '</span>';
 							}
@@ -54,9 +54,9 @@
 						<div class="so-type-indicator">
 							<?php
 							if ( $item['type'] == 'plugins' ) {
-								esc_html_e( 'Plugin', 'siteorigin-installer' );
+								esc_html_e( 'Plugin', 'so-widgets-bundle' );
 							} else {
-								esc_html_e( 'Theme', 'siteorigin-installer' );
+								esc_html_e( 'Theme', 'so-widgets-bundle' );
 							}
 							?>
 						</div>
@@ -78,20 +78,20 @@
 									}
 									?>
 									<a href="<?php echo esc_url( $premium_url ); ?>" target="_blank" rel="noopener noreferrer" class="button-primary">
-										<?php esc_html_e( 'Get SiteOrigin Premium', 'siteorigin-installer' ); ?>
+										<?php esc_html_e( 'Get SiteOrigin Premium', 'so-widgets-bundle' ); ?>
 									</a>
 									<?php
 								} elseif ( ! empty( $item['status'] ) || $item['type'] == 'themes' ) {
 									if ( $item['status'] == 'install' ) {
-										$text = __( 'Install', 'siteorigin-installer' );
+										$text = __( 'Install', 'so-widgets-bundle' );
 									} else {
-										$text = __( 'Activate', 'siteorigin-installer' );
+										$text = __( 'Activate', 'so-widgets-bundle' );
 									}
 									require 'action-btn.php';
 								}
 
 								if ( ! empty( $item['update'] ) ) {
-									$text = __( 'Update', 'siteorigin-installer' );
+									$text = __( 'Update', 'so-widgets-bundle' );
 									$item['status'] = 'update';
 									require 'action-btn.php';
 								}
@@ -104,13 +104,13 @@
 							) {
 								?>
 								<a href="<?php echo esc_url( $item['demo'] ); ?>" target="_blank" rel="noopener noreferrer" class="siteorigin-demo">
-									<?php esc_html_e( 'Demo', 'siteorigin-installer' ); ?>
+									<?php esc_html_e( 'Demo', 'so-widgets-bundle' ); ?>
 								</a>
 							<?php } ?>
 
 							<?php if ( ! empty( $item['documentation'] ) ) { ?>
 								<a href="<?php echo esc_url( $item['documentation'] ); ?>" target="_blank" rel="noopener noreferrer" class="siteorigin-docs">
-									<?php esc_html_e( 'Documentation', 'siteorigin-installer' ); ?>
+									<?php esc_html_e( 'Documentation', 'so-widgets-bundle' ); ?>
 								</a>
 							<?php } ?>
 						</div>
