@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.7
 Requires PHP: 7.0.0
-Stable tag: 1.65.0
-Build time: 2025-02-03T23:37:32+00:00
+Stable tag: 1.65.1
+Build time: 2025-02-05T23:21:45+00:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,10 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.65.1 - 05 February 2025 =
+* Carousel: Fixed `Dynamic Navigation` potential to be applied when disabled.
+* Contact Form: Fixed Browser Check setting.
 
 = 1.65.0 - 03 February 2025 =
 * Blog: Added support for `siteorigin_widgets_blog_post_meta`.
