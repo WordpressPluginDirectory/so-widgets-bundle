@@ -2,7 +2,7 @@
 /*
 Plugin Name: SiteOrigin Widgets Bundle
 Description: A highly customizable collection of widgets, ready to be used anywhere, neatly bundled into a single plugin.
-Version: 1.65.1
+Version: 1.66.0
 Text Domain: so-widgets-bundle
 Domain Path: /lang
 Author: SiteOrigin
@@ -12,7 +12,7 @@ License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 */
 
-define( 'SOW_BUNDLE_VERSION', '1.65.1' );
+define( 'SOW_BUNDLE_VERSION', '1.66.0' );
 define( 'SOW_BUNDLE_BASE_FILE', __FILE__ );
 
 // Allow JS suffix to be pre-set.
@@ -941,7 +941,11 @@ class SiteOrigin_Widgets_Bundle {
 							$opt_wid = get_option( 'widget_' . $widget->id_base );
 							preg_match( '/-([0-9]+$)/', $id, $num_match );
 
-							if ( ! empty( $num_match ) && isset( $num_match[1] ) ) {
+							if (
+								! empty( $num_match ) &&
+								isset( $num_match[1] ) &&
+								isset( $opt_wid[ $num_match[1] ] )
+							) {
 								$widget_instance = $opt_wid[ $num_match[1] ];
 								$widget->enqueue_frontend_scripts( $widget_instance );
 								// TODO: Should be calling modify_instance here before generating the CSS.

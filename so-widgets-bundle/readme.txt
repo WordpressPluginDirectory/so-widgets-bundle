@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.7
 Requires PHP: 7.0.0
-Stable tag: 1.65.1
-Build time: 2025-02-05T23:21:45+00:00
+Stable tag: 1.66.0
+Build time: 2025-03-01T12:24:46+00:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,16 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.66.0 - 01 March 2025 =
+* Carousel: Improved resize handling by delaying events, ensuring adaptive height application and correct breakpoints, and reorganizing layout.
+* Cards Carousel, Post/Card Carousel: Maintained fixed container height after resize and fixed second dot display.
+* Contact: Resolved notice for missing name field, removed additional select margin, added aria-describedby support, and moved description inside the field container.
+* Contact Description: Added top margin setting.
+* Editor: Removed wp_targeted_link_rel from output.
+* Google Maps: Fixed MapStyles icon notice, ensured custom Map Styles JSON validation, prevented undefined Map ID issues, updated Map ID description, added Map ID setting, and restored * support for Map Styles.
+* Video, Video FitVids: Improved video JS loading and skinable host detection, removed skinable host requirement, and ensured FitVids always enqueues.
+* General: Added WP Optimize support, introduced siteorigin_sanitize_json helper, and resolved notice related to active widget area script detection.
 
 = 1.65.1 - 05 February 2025 =
 * Carousel: Fixed `Dynamic Navigation` potential to be applied when disabled.
