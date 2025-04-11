@@ -1090,7 +1090,7 @@ class SiteOrigin_Widget_Blog_Widget extends SiteOrigin_Widget {
 	}
 
 	public function modify_instance( $instance ) {
-		if ( empty( $instance ) ) {
+		if ( empty( $instance ) || ! is_array( $instance ) ) {
 			return array();
 		}
 
@@ -1175,6 +1175,15 @@ class SiteOrigin_Widget_Blog_Widget extends SiteOrigin_Widget {
 			$instance['settings']['filter_categories'] = false;
 		}
 
+		// Prevent WAF PHP function block.
+		if (
+			is_array( $instance['settings'] ) &&
+			isset( $instance['settings']['date_format'] )
+		) {
+			$instance['settings']['date_output_format'] = $instance['settings']['date_format'];
+			unset( $instance['settings']['date_format'] );
+		}
+
 		return $instance;
 	}
 
@@ -1233,7 +1242,7 @@ class SiteOrigin_Widget_Blog_Widget extends SiteOrigin_Widget {
 
 		// Add template specific settings.
 		$template_settings = array(
-			'date_format' => isset( $instance['settings']['date_format'] ) ? $instance['settings']['date_format'] : null,
+			'date_output_format' => isset( $instance['settings']['date_output_format'] ) ? $instance['settings']['date_output_format'] : null,
 		);
 
 		if ( $instance['template'] == 'offset' ) {
@@ -1291,12 +1300,12 @@ class SiteOrigin_Widget_Blog_Widget extends SiteOrigin_Widget {
 		}
 
 		if ( $settings['date'] ) {
-			$date_format = isset( $settings['date_format'] ) ? $settings['date_format'] : null;
+			$date_output_format = isset( $settings['date_output_format'] ) ? $settings['date_output_format'] : null;
 			?>
 			<span class="sow-entry-date">
 				<a href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark">
 					<time class="published" datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>">
-						<?php echo esc_html( get_the_date( $date_format ) ); ?>
+						<?php echo esc_html( get_the_date( $date_output_format ) ); ?>
 					</time>
 					<time class="updated" datetime="<?php echo esc_attr( get_the_modified_date( 'c' ) ); ?>">
 						<?php echo esc_html( get_the_modified_date() ); ?>
@@ -1494,16 +1503,33 @@ class SiteOrigin_Widget_Blog_Widget extends SiteOrigin_Widget {
 		<?php
 	}
 
-	public static function generate_excerpt( $settings ) {
-		if ( $settings['read_more'] ) {
-			$read_more_text = ! empty( $settings['read_more_text'] ) ? $settings['read_more_text'] : __( 'Continue reading', 'so-widgets-bundle' );
-			$read_more_text = '<a class="sow-more-link more-link excerpt" href="' . esc_url( get_permalink() ) . '">
-			' . esc_html( $read_more_text ) . '<span class="sow-more-link-arrow">&rarr;</span></a>';
+	/**
+	 * Checks if a read more link should be displayed.
+	 *
+	 * Determines display by checking:
+	 * 1. Read more enabled in widget settings.
+	 * 2. Filter to override default behavior (true).
+	 * 3. Post has manual excerpt or auto-excerpt exceeds word limit
+	 *
+	 * @param array $settings The current Blog widget settings.
+	 * @return bool True if read more link should be displayed, false otherwise.
+	 */
+	private static function maybe_add_read_more( $settings ): bool {
+		if ( ! $settings['read_more'] ) {
+			return false;
 		}
 
+		if ( apply_filters( 'siteorigin_widgets_blog_always_add_read_more', false ) ) {
+			return true;
+		}
+
+		return has_excerpt() ||
+			count( preg_split( '~[^\p{L}\p{N}\']+~u', get_the_excerpt() ) ) >= get_query_var( 'siteorigin_blog_excerpt_length' );
+	}
+
+	public static function generate_excerpt( $settings ) {
 		$length = get_query_var( 'siteorigin_blog_excerpt_length' );
 		$excerpt = get_the_excerpt();
-		$excerpt_add_read_more = count( preg_split( '~[^\p{L}\p{N}\']+~u', $excerpt ) ) >= $length;
 
 		if (
 			! has_excerpt() ||
@@ -1516,7 +1542,16 @@ class SiteOrigin_Widget_Blog_Widget extends SiteOrigin_Widget {
 			);
 		}
 
-		if ( $settings['read_more'] && ( has_excerpt() || $excerpt_add_read_more ) ) {
+		if ( self::maybe_add_read_more( $settings ) ) {
+			$read_more_text = ! empty( $settings['read_more_text'] ) ?
+				$settings['read_more_text'] :
+				__( 'Continue reading', 'so-widgets-bundle' );
+
+			$read_more_text = '<a class="sow-more-link more-link excerpt" href="' .
+				esc_url( get_permalink() ) . '">' .
+				esc_html( $read_more_text ) .
+				'<span class="sow-more-link-arrow">&rarr;</span></a>';
+
 			$excerpt .= $read_more_text;
 		}
 

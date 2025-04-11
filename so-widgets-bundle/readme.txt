@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.7
 Requires PHP: 7.0.0
-Stable tag: 1.66.0
-Build time: 2025-03-01T12:24:46+00:00
+Stable tag: 1.68.0
+Build time: 2025-04-10T15:43:47+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,55 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.68.0 - 10 April 2025 =
+* Accordion: Fixed custom sized icon output to maintain correct dimensions.
+* Blog: Added "Always Add Read More" setting and made it enabled by default.
+* Widgets Bundle Blocks: Added SiteOrigin category with custom icon.
+* Widgets Bundle Blocks: Improved block and widget registration process.
+* Widgets Bundle Blocks: Enhanced font consistency and fixed widget prefix issues.
+* Widgets Bundle Blocks: Added container query support for external media fields.
+* Widgets Bundle Blocks: Resolved map consent preview issues.
+* Widgets Bundle Blocks: Improved migration permission checks and widget existence verification.
+* Contact: Removed unused form ID field.
+* Features: Added title and content classes for settings.
+* Features: Resolved text design settings specificity issues.
+* Icon Field: Improved responsive handling.
+* Icon Field: Enhanced vertical alignment.
+* Icon Field: Maintained min-height and padding settings.
+* Media Field: Added container query support for external fields.
+* Media Field: Increased external field breakpoint.
+* Media Field: Improved external handling.
+* Post Carousel: Added posts_limit support.
+* Posts: Added "Maximum Posts to Output" field.
+* Repeater Table: Added support for SelectorArray.
+* Section Form Field: Set font size to prevent override in Twenty Twenty theme.
+* General: Added widget backup functionality with filter to disable.
+* General: Optimized widget SVG banners.
+* General: Added block editor icons.
+* General: Improved Elementor guest post type handling.
+
+= 1.67.2 - 20 March 2025 =
+* Call To Action: Cleared floats to prevent content overflow.
+* Contact: Fixed Really Simple Captcha functionality.
+* Video Player: Improved hide controls handling, prevented self-hosted videos from not autoplaying, ensured hide controls setting doesn't affect externally hosted videos, and fixed missing media elements in external videos.
+* General: Prevented JavaScript variable declaration conflict with 'sowb' identifier.
+
+= 1.67.1 - 18 March 2025 =
+* Posts Query: Added no results text for improved user feedback.
+* Posts Query: Enhanced autocomplete functionality to pass post ID.
+* Video Player: Added click-to-play functionality for self-hosted videos.
+* General: Implemented manual widget block tests.
+
+= 1.67.0 - 17 March 2025 =
+* SiteOrigin Widget Block: Transitioned from a single multi-select block to dedicated individual blocks for each widget, significantly improving the block editor experience.
+* Blog: Improved author avatar sizing and prevented false positive Web Application Firewall (WAF) flags.
+* Cards, Post Carousel: Enhanced resize handling after posts are loaded and fixed dot navigation.
+* Google Maps: Resolved type check issues.
+* Post Carousel: Implemented sizing improvements.
+* Recent Posts: Prevented WAF blocking.
+* General: Added more info link to legacy block and implemented preview check for widget blocks.
+* Developer: Updated Google Fonts and Font Awesome libraries.
 
 = 1.66.0 - 01 March 2025 =
 * Carousel: Improved resize handling by delaying events, ensuring adaptive height application and correct breakpoints, and reorganizing layout.

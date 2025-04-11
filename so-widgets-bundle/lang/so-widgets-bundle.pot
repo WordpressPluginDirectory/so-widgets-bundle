@@ -24,7 +24,7 @@ msgstr ""
 msgid "A highly customizable collection of widgets, ready to be used anywhere, neatly bundled into a single plugin."
 msgstr ""
 
-#: so-widgets-bundle.php:8, widgets/accordion/accordion.php:5, widgets/anything-carousel/anything-carousel.php:5, widgets/author-box/author-box.php:5, widgets/blog/blog.php:5, widgets/button/button.php:5, widgets/button-grid/button-grid.php:5, widgets/contact/contact.php:5, widgets/cta/cta.php:5, widgets/editor/editor.php:5, widgets/features/features.php:5, widgets/google-map/google-map.php:5, widgets/headline/headline.php:5, widgets/hero/hero.php:5, widgets/icon/icon.php:5, widgets/image/image.php:5, widgets/image-grid/image-grid.php:5, widgets/layout-slider/layout-slider.php:5, widgets/lottie-player/lottie-player.php:5, widgets/post-carousel/post-carousel.php:5, widgets/price-table/price-table.php:5, widgets/recent-posts/recent-posts.php:5, widgets/simple-masonry/simple-masonry.php:5, widgets/slider/slider.php:5, widgets/social-media-buttons/social-media-buttons.php:5, widgets/tabs/tabs.php:5, widgets/taxonomy/taxonomy.php:5, widgets/testimonial/testimonial.php:5, widgets/video/video.php:5, base/inc/installer/siteorigin-installer.php:6
+#: so-widgets-bundle.php:8, compat/block-editor/widget-block.php:91, widgets/accordion/accordion.php:5, widgets/anything-carousel/anything-carousel.php:5, widgets/author-box/author-box.php:5, widgets/blog/blog.php:5, widgets/button/button.php:5, widgets/button-grid/button-grid.php:5, widgets/contact/contact.php:5, widgets/cta/cta.php:5, widgets/editor/editor.php:5, widgets/features/features.php:5, widgets/google-map/google-map.php:5, widgets/headline/headline.php:5, widgets/hero/hero.php:5, widgets/icon/icon.php:5, widgets/image/image.php:5, widgets/image-grid/image-grid.php:5, widgets/layout-slider/layout-slider.php:5, widgets/lottie-player/lottie-player.php:5, widgets/post-carousel/post-carousel.php:5, widgets/price-table/price-table.php:5, widgets/recent-posts/recent-posts.php:5, widgets/simple-masonry/simple-masonry.php:5, widgets/slider/slider.php:5, widgets/social-media-buttons/social-media-buttons.php:5, widgets/tabs/tabs.php:5, widgets/taxonomy/taxonomy.php:5, widgets/testimonial/testimonial.php:5, widgets/video/video.php:5, base/inc/installer/siteorigin-installer.php:6
 msgid "SiteOrigin"
 msgstr ""
 
@@ -36,11 +36,11 @@ msgstr ""
 msgid "https://siteorigin.com/widgets-bundle/"
 msgstr ""
 
-#: so-widgets-bundle.php:419, so-widgets-bundle.php:447, so-widgets-bundle.php:461, so-widgets-bundle.php:491, so-widgets-bundle.php:503, so-widgets-bundle.php:570, so-widgets-bundle.php:583, base/base.php:59, base/base.php:63, base/base.php:418, base/base.php:425, base/base.php:430, base/inc/actions.php:11, base/inc/actions.php:99, base/inc/actions.php:205, base/inc/actions.php:249, base/inc/actions.php:261, base/inc/actions.php:265, base/inc/actions.php:353, base/inc/actions.php:357
+#: so-widgets-bundle.php:419, so-widgets-bundle.php:447, so-widgets-bundle.php:461, so-widgets-bundle.php:491, so-widgets-bundle.php:503, so-widgets-bundle.php:570, so-widgets-bundle.php:583, base/base.php:59, base/base.php:63, base/base.php:418, base/base.php:425, base/base.php:430, base/inc/actions.php:11, base/inc/actions.php:99, base/inc/actions.php:209, base/inc/actions.php:251, base/inc/actions.php:263, base/inc/actions.php:267, base/inc/actions.php:355, base/inc/actions.php:359
 msgid "Invalid request."
 msgstr ""
 
-#: so-widgets-bundle.php:423, so-widgets-bundle.php:451, so-widgets-bundle.php:495, base/inc/routes/siteorigin-widgets-resource.class.php:55
+#: so-widgets-bundle.php:423, so-widgets-bundle.php:451, so-widgets-bundle.php:495, base/inc/routes/siteorigin-widgets-resource.class.php:62
 msgid "Insufficient permissions."
 msgstr ""
 
@@ -112,23 +112,23 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:684
+#: base/siteorigin-widget.class.php:685
 msgid "There is a newer version of this widget's content available."
 msgstr ""
 
-#: base/siteorigin-widget.class.php:685, base/siteorigin-widget.class.php:689
+#: base/siteorigin-widget.class.php:686, base/siteorigin-widget.class.php:690
 msgid "Restore"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:686
+#: base/siteorigin-widget.class.php:687
 msgid "Dismiss"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:688
+#: base/siteorigin-widget.class.php:689
 msgid "Clicking %s will replace the current widget contents. You can revert by refreshing the page before updating."
 msgstr ""
 
-#: base/siteorigin-widget.class.php:752
+#: base/siteorigin-widget.class.php:753
 msgid "Widget Preview"
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Filter Widgets"
 msgstr ""
 
-#: admin/tpl/admin.php:21, widgets/google-map/google-map.php:363, base/inc/fields/posts.class.php:29, widgets/blog/tpl/base.php:33
+#: admin/tpl/admin.php:21, widgets/google-map/google-map.php:363, base/inc/fields/posts.class.php:36, widgets/blog/tpl/base.php:33
 msgid "All"
 msgstr ""
 
@@ -236,15 +236,15 @@ msgstr ""
 msgid "Invalid widget."
 msgstr ""
 
-#: base/inc/actions.php:303
+#: base/inc/actions.php:305
 msgid "Nonce error"
 msgstr ""
 
-#: base/inc/actions.php:312
+#: base/inc/actions.php:314
 msgid "Signature error"
 msgstr ""
 
-#: base/inc/actions.php:337
+#: base/inc/actions.php:339
 msgid "Attachment error"
 msgstr ""
 
@@ -256,23 +256,31 @@ msgstr ""
 msgid "Widgets Bundle Post Meta Data"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:79, compat/block-editor/widget-block.php:115
+#: compat/block-editor/widget-block.php:185
+msgid "No description available."
+msgstr ""
+
+#: compat/block-editor/widget-block.php:198
 msgid "%s by %s"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:135, compat/visual-composer/visual-composer.php:74
-msgid "Selecting a different widget will revert any changes. Continue?"
+#: compat/block-editor/widget-block.php:276
+msgid "For improved block navigation, individual SiteOrigin Widget Blocks are now available. The multi-select SiteOrigin Widget Block will be automatically converted sitewide to the new individual SiteOrigin Widget Block format on page save; this action requires your consent to proceed. %sFind out more about this migration%s."
 msgstr ""
 
-#: compat/block-editor/widget-block.php:156
+#: compat/block-editor/widget-block.php:317
 msgid "You need to select a widget type before you'll see anything here. :)"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:260
+#: compat/block-editor/widget-block.php:347
 msgid "Invalid widget class %s. Please make sure the widget has been activated in %sSiteOrigin Widgets%s."
 msgstr ""
 
-#: compat/block-editor/widget-block.php:320
+#: compat/block-editor/widget-block.php:380
+msgid "No widget preview available."
+msgstr ""
+
+#: compat/block-editor/widget-block.php:485
 msgid "Invalid Widgets Bundle data"
 msgstr ""
 
@@ -284,15 +292,19 @@ msgstr ""
 msgid "Allows you to add any active SiteOrigin Widgets Bundle widgets."
 msgstr ""
 
-#: icons/fontawesome/filter.php:1905, icons/materialicons/filter.php:4
+#: compat/visual-composer/visual-composer.php:74
+msgid "Selecting a different widget will revert any changes. Continue?"
+msgstr ""
+
+#: icons/fontawesome/filter.php:1907, icons/materialicons/filter.php:4
 msgid "Regular"
 msgstr ""
 
-#: icons/fontawesome/filter.php:1906, widgets/contact/contact.php:467, widgets/contact/contact.php:608, widgets/contact/contact.php:729, widgets/contact/contact.php:811, widgets/contact/contact.php:894, widgets/headline/headline.php:217, widgets/recent-posts/recent-posts.php:265
+#: icons/fontawesome/filter.php:1908, widgets/contact/contact.php:467, widgets/contact/contact.php:608, widgets/contact/contact.php:729, widgets/contact/contact.php:811, widgets/contact/contact.php:894, widgets/headline/headline.php:217, widgets/recent-posts/recent-posts.php:265
 msgid "Solid"
 msgstr ""
 
-#: icons/fontawesome/filter.php:1907
+#: icons/fontawesome/filter.php:1909
 msgid "Brands"
 msgstr ""
 
@@ -324,7 +336,7 @@ msgstr ""
 msgid "When opening the panel, scroll the user to the top of the panel."
 msgstr ""
 
-#: widgets/accordion/accordion.php:70, widgets/accordion/accordion.php:83, widgets/anything-carousel/anything-carousel.php:65, widgets/anything-carousel/anything-carousel.php:81, widgets/blog/blog.php:84, widgets/contact/contact.php:100, widgets/cta/cta.php:74, widgets/editor/editor.php:31, widgets/features/features.php:139, widgets/icon/icon.php:66, widgets/post-carousel/post-carousel.php:332, widgets/price-table/price-table.php:42, widgets/price-table/price-table.php:61, widgets/recent-posts/recent-posts.php:58, widgets/simple-masonry/simple-masonry.php:42, widgets/simple-masonry/simple-masonry.php:84, widgets/social-media-buttons/social-media-buttons.php:52, widgets/tabs/tabs.php:71, widgets/tabs/tabs.php:84, widgets/taxonomy/taxonomy.php:33, widgets/testimonial/testimonial.php:39, widgets/video/video.php:38, base/inc/fields/posts.class.php:120
+#: widgets/accordion/accordion.php:70, widgets/accordion/accordion.php:83, widgets/anything-carousel/anything-carousel.php:65, widgets/anything-carousel/anything-carousel.php:81, widgets/blog/blog.php:84, widgets/contact/contact.php:100, widgets/cta/cta.php:74, widgets/editor/editor.php:31, widgets/features/features.php:139, widgets/icon/icon.php:66, widgets/post-carousel/post-carousel.php:365, widgets/price-table/price-table.php:42, widgets/price-table/price-table.php:61, widgets/recent-posts/recent-posts.php:58, widgets/simple-masonry/simple-masonry.php:42, widgets/simple-masonry/simple-masonry.php:84, widgets/social-media-buttons/social-media-buttons.php:52, widgets/tabs/tabs.php:71, widgets/tabs/tabs.php:84, widgets/taxonomy/taxonomy.php:33, widgets/testimonial/testimonial.php:39, widgets/video/video.php:38, base/inc/fields/posts.class.php:129
 msgid "Title"
 msgstr ""
 
@@ -464,7 +476,7 @@ msgstr ""
 msgid "Left"
 msgstr ""
 
-#: widgets/anything-carousel/anything-carousel.php:146, widgets/post-carousel/post-carousel.php:214
+#: widgets/anything-carousel/anything-carousel.php:146, widgets/post-carousel/post-carousel.php:247
 msgid "Navigation"
 msgstr ""
 
@@ -504,7 +516,7 @@ msgstr ""
 msgid "SiteOrigin Author Box"
 msgstr ""
 
-#: widgets/author-box/author-box.php:31, widgets/blog/blog.php:643, widgets/button/button.php:30, widgets/button-grid/button-grid.php:50, widgets/contact/contact.php:1173, widgets/cta/cta.php:63, widgets/features/features.php:476, widgets/headline/headline.php:35, widgets/image/image.php:30, widgets/recent-posts/recent-posts.php:47, widgets/social-media-buttons/social-media-buttons.php:31, base/inc/widgets/base-slider.class.php:239
+#: widgets/author-box/author-box.php:31, widgets/blog/blog.php:643, widgets/button/button.php:30, widgets/button-grid/button-grid.php:50, widgets/contact/contact.php:1174, widgets/cta/cta.php:63, widgets/features/features.php:476, widgets/headline/headline.php:35, widgets/image/image.php:30, widgets/recent-posts/recent-posts.php:47, widgets/social-media-buttons/social-media-buttons.php:31, base/inc/widgets/base-slider.class.php:239
 msgid "Responsive Breakpoint"
 msgstr ""
 
@@ -536,7 +548,7 @@ msgstr ""
 msgid "Container"
 msgstr ""
 
-#: widgets/author-box/author-box.php:91, widgets/blog/blog.php:372, widgets/blog/blog.php:576, widgets/contact/contact.php:587, widgets/hero/hero.php:109, widgets/layout-slider/layout-slider.php:76, widgets/post-carousel/post-carousel.php:228
+#: widgets/author-box/author-box.php:91, widgets/blog/blog.php:372, widgets/blog/blog.php:576, widgets/contact/contact.php:587, widgets/hero/hero.php:109, widgets/layout-slider/layout-slider.php:76, widgets/post-carousel/post-carousel.php:261
 msgid "Background"
 msgstr ""
 
@@ -644,7 +656,7 @@ msgstr ""
 msgid "Skip Post if No Featured Image"
 msgstr ""
 
-#: widgets/blog/blog.php:128, widgets/post-carousel/post-carousel.php:346
+#: widgets/blog/blog.php:128, widgets/post-carousel/post-carousel.php:379
 msgid "Featured Image Size"
 msgstr ""
 
@@ -720,7 +732,7 @@ msgstr ""
 msgid "Background Color"
 msgstr ""
 
-#: widgets/blog/blog.php:257, widgets/post-carousel/post-carousel.php:242, widgets/recent-posts/recent-posts.php:78, widgets/recent-posts/recent-posts.php:297
+#: widgets/blog/blog.php:257, widgets/post-carousel/post-carousel.php:275, widgets/recent-posts/recent-posts.php:78, widgets/recent-posts/recent-posts.php:297
 msgid "Post Title"
 msgstr ""
 
@@ -744,7 +756,7 @@ msgstr ""
 msgid "Overlay Post Category"
 msgstr ""
 
-#: widgets/blog/blog.php:378, widgets/blog/blog.php:580, widgets/post-carousel/post-carousel.php:233
+#: widgets/blog/blog.php:378, widgets/blog/blog.php:580, widgets/post-carousel/post-carousel.php:266
 msgid "Hover Background"
 msgstr ""
 
@@ -808,7 +820,7 @@ msgstr ""
 msgid "Post Meta Color"
 msgstr ""
 
-#: widgets/blog/blog.php:551, widgets/blog/blog.php:1575
+#: widgets/blog/blog.php:551, widgets/blog/blog.php:1610
 msgid "Pagination"
 msgstr ""
 
@@ -832,11 +844,11 @@ msgstr ""
 msgid "Height"
 msgstr ""
 
-#: widgets/blog/blog.php:632, widgets/post-carousel/post-carousel.php:364, widgets/recent-posts/recent-posts.php:467
+#: widgets/blog/blog.php:632, widgets/post-carousel/post-carousel.php:397, widgets/recent-posts/recent-posts.php:467
 msgid "Posts Query"
 msgstr ""
 
-#: widgets/blog/blog.php:649, widgets/contact/contact.php:1179
+#: widgets/blog/blog.php:649, widgets/contact/contact.php:1180
 msgid "Scroll Top"
 msgstr ""
 
@@ -844,40 +856,40 @@ msgstr ""
 msgid "Scroll the user to the top of the Blog Widget after pagination links are clicked."
 msgstr ""
 
-#: widgets/blog/blog.php:1289
+#: widgets/blog/blog.php:1298
 msgid "Sticky"
 msgstr ""
 
-#: widgets/blog/blog.php:1339
+#: widgets/blog/blog.php:1348
 msgid "$category->name"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: widgets/blog/blog.php:1343
+#: widgets/blog/blog.php:1352
 msgid ", "
 msgstr ""
 
-#: widgets/blog/blog.php:1359
+#: widgets/blog/blog.php:1368
 msgid "Leave a comment"
 msgstr ""
 
-#: widgets/blog/blog.php:1360
+#: widgets/blog/blog.php:1369
 msgid "One Comment"
 msgstr ""
 
-#: widgets/blog/blog.php:1361, widgets/blog/tpl/offset.php:55
+#: widgets/blog/blog.php:1370, widgets/blog/tpl/offset.php:55
 msgid "% Comments"
 msgstr ""
 
-#: widgets/blog/blog.php:1430, widgets/blog/blog.php:1499, widgets/recent-posts/recent-posts.php:194
+#: widgets/blog/blog.php:1439, widgets/blog/blog.php:1548, widgets/recent-posts/recent-posts.php:194
 msgid "Continue reading"
 msgstr ""
 
-#: widgets/blog/blog.php:1605
+#: widgets/blog/blog.php:1640
 msgid "Get more pagination themes and Ajax reloading with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/blog/blog.php:1610
+#: widgets/blog/blog.php:1645
 msgid "Adjust the post Read More link text and choose a custom post date format with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -1097,7 +1109,7 @@ msgstr ""
 msgid "Mobile"
 msgstr ""
 
-#: widgets/button-grid/button-grid.php:156, widgets/button-grid/button-grid.php:158, widgets/google-map/google-map.php:294, widgets/image/image.php:78, widgets/image/image.php:90, base/inc/fields/posts.class.php:153
+#: widgets/button-grid/button-grid.php:156, widgets/button-grid/button-grid.php:158, widgets/google-map/google-map.php:294, widgets/image/image.php:78, widgets/image/image.php:90, base/inc/fields/posts.class.php:167
 msgid "Default"
 msgstr ""
 
@@ -1273,7 +1285,7 @@ msgstr ""
 msgid "Error message to display if this field is missing."
 msgstr ""
 
-#: widgets/contact/contact.php:241, widgets/contact/contact.php:1586
+#: widgets/contact/contact.php:241, widgets/contact/contact.php:1587
 msgid "Required field"
 msgstr ""
 
@@ -1613,80 +1625,80 @@ msgstr ""
 msgid "Please write something"
 msgstr ""
 
-#: widgets/contact/contact.php:1175
+#: widgets/contact/contact.php:1176
 msgid "This setting controls when the field max width will be disabled. The default value is 780px"
 msgstr ""
 
-#: widgets/contact/contact.php:1181
+#: widgets/contact/contact.php:1182
 msgid "After submission, scroll the user to the top of the contact form."
 msgstr ""
 
-#: widgets/contact/contact.php:1598
+#: widgets/contact/contact.php:1599
 msgid "Invalid email address."
 msgstr ""
 
-#: widgets/contact/contact.php:1624
+#: widgets/contact/contact.php:1625
 msgid "Invalid phone number. It should contain at least three digits."
 msgstr ""
 
-#: widgets/contact/contact.php:1635
+#: widgets/contact/contact.php:1636
 msgid "Invalid number."
 msgstr ""
 
-#: widgets/contact/contact.php:1683
+#: widgets/contact/contact.php:1684
 msgid "Contact Form"
 msgstr ""
 
-#: widgets/contact/contact.php:1718
+#: widgets/contact/contact.php:1719
 msgid "Error sending email, please try again later."
 msgstr ""
 
-#: widgets/contact/contact.php:1745
+#: widgets/contact/contact.php:1746
 msgid "A valid email is required"
 msgstr ""
 
-#: widgets/contact/contact.php:1747
+#: widgets/contact/contact.php:1748
 msgid "The email address is invalid"
 msgstr ""
 
-#: widgets/contact/contact.php:1751
+#: widgets/contact/contact.php:1752
 msgid "Missing subject"
 msgstr ""
 
-#: widgets/contact/contact.php:1781
+#: widgets/contact/contact.php:1782
 msgid "Error validating your Captcha response."
 msgstr ""
 
-#: widgets/contact/contact.php:1816
+#: widgets/contact/contact.php:1817
 msgid "Unfortunately our system identified your message as spam."
 msgstr ""
 
-#: widgets/contact/contact.php:1823
+#: widgets/contact/contact.php:1824
 msgid "Error validating your Captcha response. Really Simple CAPTCHA missing."
 msgstr ""
 
-#: widgets/contact/contact.php:1833
+#: widgets/contact/contact.php:1834
 msgid "Error validating your Captcha response. Please try again."
 msgstr ""
 
-#: widgets/contact/contact.php:1843, widgets/contact/contact.php:1851
+#: widgets/contact/contact.php:1844, widgets/contact/contact.php:1852
 msgid "Unfortunately, our system identified your message as spam."
 msgstr ""
 
-#: widgets/contact/contact.php:1898
+#: widgets/contact/contact.php:1899
 msgctxt "The name of who sent this email"
 msgid "From"
 msgstr ""
 
-#: widgets/contact/contact.php:1945
+#: widgets/contact/contact.php:1946
 msgid "%s Contact Form"
 msgstr ""
 
-#: widgets/contact/contact.php:2066
+#: widgets/contact/contact.php:2067
 msgid "Add a form autoresponder and additional fields, including a date and time picker with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/contact/contact.php:2071
+#: widgets/contact/contact.php:2072
 msgid "Use Google Fonts right inside the Contact Form Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -2385,23 +2397,23 @@ msgstr ""
 msgid "This setting controls when the map will use the mobile zoom. This breakpoint will only be used if a mobile zoom is set in the SiteOrigin Google Maps settings. The default value is 780px"
 msgstr ""
 
-#: widgets/google-map/google-map.php:700
+#: widgets/google-map/google-map.php:708
 msgid "There were no results for the place you entered. Please try another."
 msgstr ""
 
-#: widgets/google-map/google-map.php:720
+#: widgets/google-map/google-map.php:728
 msgid "Custom Map"
 msgstr ""
 
-#: widgets/google-map/google-map.php:976
+#: widgets/google-map/google-map.php:984
 msgid "Get additional map consent design settings with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/google-map/google-map.php:981
+#: widgets/google-map/google-map.php:989
 msgid "Get a curated list of predefined map styles with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/google-map/google-map.php:986
+#: widgets/google-map/google-map.php:994
 msgid "Use Google Fonts right inside the Google Maps Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -2877,7 +2889,7 @@ msgstr ""
 msgid "Lottie File"
 msgstr ""
 
-#: widgets/lottie-player/lottie-player.php:59, widgets/post-carousel/post-carousel.php:277, widgets/video/video.php:106, base/inc/widgets/base-carousel.class.php:326, base/inc/widgets/base-slider.class.php:59, base/inc/widgets/base-slider.class.php:218
+#: widgets/lottie-player/lottie-player.php:59, widgets/post-carousel/post-carousel.php:310, widgets/video/video.php:106, base/inc/widgets/base-carousel.class.php:326, base/inc/widgets/base-slider.class.php:59, base/inc/widgets/base-slider.class.php:218
 msgid "Autoplay"
 msgstr ""
 
@@ -2893,87 +2905,87 @@ msgstr ""
 msgid "Customize and enhance your Lottie Player with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:4, widgets/post-carousel/post-carousel.php:121
+#: widgets/post-carousel/post-carousel.php:4, widgets/post-carousel/post-carousel.php:151
 msgid "Display blog posts or custom post types in a responsive, customizable carousel layout."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:119
+#: widgets/post-carousel/post-carousel.php:149
 msgid "SiteOrigin Post Carousel"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:219
+#: widgets/post-carousel/post-carousel.php:252
 msgid "Arrow Color"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:224
+#: widgets/post-carousel/post-carousel.php:257
 msgid "Arrow Hover Color"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:250
+#: widgets/post-carousel/post-carousel.php:283
 msgid "Post Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:255
+#: widgets/post-carousel/post-carousel.php:288
 msgid "Thumbnail Overlay Hover Color"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:260
+#: widgets/post-carousel/post-carousel.php:293
 msgid "Thumbnail Overlay Hover Opacity"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:273
+#: widgets/post-carousel/post-carousel.php:306
 msgid "Automatically return to the first post after the last post."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:285
+#: widgets/post-carousel/post-carousel.php:318
 msgid "Off"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:294
+#: widgets/post-carousel/post-carousel.php:327
 msgid "On"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:303
+#: widgets/post-carousel/post-carousel.php:336
 msgid "Continuous"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:338
+#: widgets/post-carousel/post-carousel.php:371
 msgid "Default Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:339
+#: widgets/post-carousel/post-carousel.php:372
 msgid "Choose Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:340
+#: widgets/post-carousel/post-carousel.php:373
 msgid "Set Thumbnail"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:352
+#: widgets/post-carousel/post-carousel.php:385
 msgid "Link Target"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:353
+#: widgets/post-carousel/post-carousel.php:386
 msgid "Choose where to open each carousel item."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:355
+#: widgets/post-carousel/post-carousel.php:388
 msgid "Same window "
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:356
+#: widgets/post-carousel/post-carousel.php:389
 msgid "New window "
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:368
+#: widgets/post-carousel/post-carousel.php:402
 msgid "Posts Per Load"
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:369
+#: widgets/post-carousel/post-carousel.php:403
 msgid "Set the number of posts preloaded in the background when clicking next. The default is 10."
 msgstr ""
 
-#: widgets/post-carousel/post-carousel.php:574
+#: widgets/post-carousel/post-carousel.php:608
 msgid "Get access to additional carousel themes with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -3141,11 +3153,11 @@ msgstr ""
 msgid "Max Icon Size"
 msgstr ""
 
-#: widgets/recent-posts/recent-posts.php:640
+#: widgets/recent-posts/recent-posts.php:660
 msgid "Published on:"
 msgstr ""
 
-#: widgets/recent-posts/recent-posts.php:648
+#: widgets/recent-posts/recent-posts.php:668
 msgid "Last updated on:"
 msgstr ""
 
@@ -3381,7 +3393,7 @@ msgstr ""
 msgid "SiteOrigin Taxonomy"
 msgstr ""
 
-#: widgets/taxonomy/taxonomy.php:37, base/inc/fields/posts.class.php:62
+#: widgets/taxonomy/taxonomy.php:37, base/inc/fields/posts.class.php:71
 msgid "Taxonomies"
 msgstr ""
 
@@ -3577,7 +3589,11 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: base/inc/fields/autocomplete.class.php:61, base/inc/fields/link.class.php:46
+#: base/inc/fields/autocomplete.class.php:60, base/inc/fields/link.class.php:45
+msgid "No results found."
+msgstr ""
+
+#: base/inc/fields/autocomplete.class.php:63, base/inc/fields/link.class.php:48
 msgid "Close"
 msgstr ""
 
@@ -3647,7 +3663,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: base/inc/fields/icon.class.php:102
+#: base/inc/fields/icon.class.php:103
 msgid "Search Icons"
 msgstr ""
 
@@ -3735,145 +3751,149 @@ msgstr ""
 msgid "Add Media"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:48
+#: base/inc/fields/posts.class.php:57
 msgid "Post Type"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:56
+#: base/inc/fields/posts.class.php:65
 msgid "Post In"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:64
+#: base/inc/fields/posts.class.php:73
 msgid "Taxonomies are groups such as categories, tags, posts and products."
 msgstr ""
 
-#: base/inc/fields/posts.class.php:69
+#: base/inc/fields/posts.class.php:78
 msgid "Taxonomies Relationship"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:71
+#: base/inc/fields/posts.class.php:80
 msgid "OR"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:72
+#: base/inc/fields/posts.class.php:81
 msgid "AND"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:74
+#: base/inc/fields/posts.class.php:83
 msgid "The relationship between taxonomies. OR requires posts to have at least one of the specified taxonomies. AND requires posts to have all of the specified taxonomies."
 msgstr ""
 
-#: base/inc/fields/posts.class.php:80
+#: base/inc/fields/posts.class.php:89
 msgid "Date Selection Type"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:82
+#: base/inc/fields/posts.class.php:91
 msgid "Specific"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:83
+#: base/inc/fields/posts.class.php:92
 msgid "Relative"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:85
+#: base/inc/fields/posts.class.php:94
 msgid "Select a range between specific dates or relative to the current date."
 msgstr ""
 
-#: base/inc/fields/posts.class.php:95, base/inc/fields/posts.class.php:105
+#: base/inc/fields/posts.class.php:104, base/inc/fields/posts.class.php:114
 msgid "Dates"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:115
+#: base/inc/fields/posts.class.php:124
 msgid "Order By"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:117
+#: base/inc/fields/posts.class.php:126
 msgid "No order"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:118
+#: base/inc/fields/posts.class.php:127
 msgid "Post ID"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:119, widgets/blog/tpl/offset.php:7
+#: base/inc/fields/posts.class.php:128, widgets/blog/tpl/offset.php:7
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: base/inc/fields/posts.class.php:121
+#: base/inc/fields/posts.class.php:130
 msgid "Published date"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:122
+#: base/inc/fields/posts.class.php:131
 msgid "Modified date"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:123
+#: base/inc/fields/posts.class.php:132
 msgid "By parent"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:124
+#: base/inc/fields/posts.class.php:133
 msgid "Random order"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:125
+#: base/inc/fields/posts.class.php:134
 msgid "Comment count"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:126
+#: base/inc/fields/posts.class.php:135
 msgid "Menu order"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:127
+#: base/inc/fields/posts.class.php:136
 msgid "By meta value"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:128
+#: base/inc/fields/posts.class.php:137
 msgid "By numeric meta value"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:129
+#: base/inc/fields/posts.class.php:138
 msgid "By include order"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:136
+#: base/inc/fields/posts.class.php:145
 msgid "Order Direction"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:138
+#: base/inc/fields/posts.class.php:147
 msgid "Ascending"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:139
+#: base/inc/fields/posts.class.php:148
 msgid "Descending"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:146
+#: base/inc/fields/posts.class.php:155
 msgid "Posts Per Page"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:151
+#: base/inc/fields/posts.class.php:160
+msgid "Maximum Posts to Output"
+msgstr ""
+
+#: base/inc/fields/posts.class.php:165
 msgid "Sticky Posts"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:154
+#: base/inc/fields/posts.class.php:168
 msgid "Ignore sticky"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:155
+#: base/inc/fields/posts.class.php:169
 msgid "Exclude sticky"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:156
+#: base/inc/fields/posts.class.php:170
 msgid "Only sticky"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:162
+#: base/inc/fields/posts.class.php:176
 msgid "Additional"
 msgstr ""
 
-#: base/inc/fields/posts.class.php:163
+#: base/inc/fields/posts.class.php:177
 msgid "Additional query arguments. See <a href=\"https://developer.wordpress.org/reference/functions/query_posts/\" target=\"_blank\" rel=\"noopener noreferrer\">query_posts</a>."
 msgstr ""
 
