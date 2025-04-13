@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.7
 Requires PHP: 7.0.0
-Stable tag: 1.68.0
-Build time: 2025-04-10T15:43:47+02:00
+Stable tag: 1.68.1
+Build time: 2025-04-12T17:28:33+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,9 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.68.1 - 12 April 2025 =
+* Widgets Bundle Blocks: Resolved widget migration error by improving widget registration process and maintaining widget list integrity.
 
 = 1.68.0 - 10 April 2025 =
 * Accordion: Fixed custom sized icon output to maintain correct dimensions.
