@@ -3061,7 +3061,7 @@ msgstr ""
 msgid "Container background color"
 msgstr ""
 
-#: widgets/price-table/price-table.php:457
+#: widgets/price-table/price-table.php:466
 msgid "Add a Price Table feature tooltip with %sSiteOrigin Premium%s"
 msgstr ""
 
