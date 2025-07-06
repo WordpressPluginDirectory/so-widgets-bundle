@@ -45,6 +45,17 @@ abstract class SiteOrigin_Widget_Base_Slider extends SiteOrigin_Widget {
 			array( 'jquery' ),
 			SOW_BUNDLE_VERSION
 		);
+
+		static $protocols_added = false;
+		if ( ! $protocols_added ) {
+			$protocols_added = true;
+
+			wp_localize_script(
+				'sow-slider-slider',
+				'sowb_slider_allowed_protocols',
+				sow_get_allowed_esc_url_protocols()
+			);
+		}
 	}
 
 	/**
@@ -527,6 +538,7 @@ abstract class SiteOrigin_Widget_Base_Slider extends SiteOrigin_Widget {
 		$background = wp_parse_args( $this->get_frame_background( $i, $frame ), array(
 			'color' => false,
 			'image' => false,
+			'image-alt' => '',
 			'image-width' => 0,
 			'image-height' => 0,
 			'opacity' => 1,
@@ -580,6 +592,19 @@ abstract class SiteOrigin_Widget_Base_Slider extends SiteOrigin_Widget {
 		} ?>>
 			<?php
 			do_action( 'siteorigin_widgets_slider_before_contents', $frame );
+
+			if (
+				! empty( $background['image'] ) &&
+				! empty( $background['image-alt'] )
+			) {
+				wp_enqueue_style( 'siteorigin-accessibility' );
+				?>
+				<div class="sowb-slider-background-alt so-sr-only">
+					<?php echo esc_html( $background['image-alt'] ); ?>
+				</div>
+				<?php
+			}
+
 			$this->render_frame_contents( $i, $frame );
 			do_action( 'siteorigin_widgets_slider_after_contents', $frame );
 
@@ -637,10 +662,11 @@ abstract class SiteOrigin_Widget_Base_Slider extends SiteOrigin_Widget {
 
 				$overlay_attributes['class'] = empty( $overlay_attributes['class'] ) ? '' : implode( ' ', $overlay_attributes['class'] );
 				$overlay_attributes['style'] = empty( $overlay_attributes['style'] ) ? '' : implode( ';', $overlay_attributes['style'] );
-
-				?><div <?php foreach ( $overlay_attributes as $attr => $val ) {
-					echo siteorigin_sanitize_attribute_key( $attr ) . '="' . esc_attr( $val ) . '" ';
-				} ?> ></div><?php
+				if ( ! empty( $overlay_attributes ) ) {
+					?><div <?php foreach ( $overlay_attributes as $attr => $val ) {
+						echo siteorigin_sanitize_attribute_key( $attr ) . '="' . esc_attr( $val ) . '" ';
+					} ?> ></div><?php
+				}
 			}
 
 			?>

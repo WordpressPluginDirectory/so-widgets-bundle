@@ -36,7 +36,7 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 					$pagenow != 'admin.php' ||
 					(
 						! empty( $_GET['page'] ) &&
-						$_GET['page'] != 'so-widgets-bundle'
+						$_GET['page'] != 'siteorigin-installer'
 					)
 				)
 			) {
@@ -82,13 +82,15 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 				! defined( 'SITEORIGIN_INSTALLER_THEME_MODE' ) &&
 				empty( $GLOBALS['admin_page_hooks']['siteorigin'] )
 			) {
+				$svg = file_get_contents( SITEORIGIN_INSTALLER_DIR . '/img/menu-icon.svg' );
+
 				add_menu_page(
 					__( 'SiteOrigin', 'so-widgets-bundle' ),
 					__( 'SiteOrigin', 'so-widgets-bundle' ),
-					false,
+					'manage_options',
 					'admin.php?page=siteorigin-installer',
 					false,
-					SITEORIGIN_INSTALLER_URL . '/img/icon.svg',
+					'data:image/svg+xml;base64,' . base64_encode( $svg ),
 					66
 				);
 			}
@@ -98,12 +100,19 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 				__( 'Installer', 'so-widgets-bundle' ),
 				__( 'Installer', 'so-widgets-bundle' ),
 				'manage_options',
-				'so-widgets-bundle',
+				'siteorigin-installer',
 				array( $this, 'display_admin_page' )
 			);
 		}
 
 		public function enqueue_scripts( $prefix ) {
+			wp_enqueue_style(
+				'siteorigin-installer-menu-icon',
+				SITEORIGIN_INSTALLER_URL . 'css/menu-icon.css',
+				array(),
+				SITEORIGIN_INSTALLER_VERSION
+			);
+
 			if (
 				$prefix !== 'admin_page_siteorigin-installer' &&
 				$prefix !== 'siteorigin_page_siteorigin-installer'
@@ -112,21 +121,21 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 			}
 
 			wp_enqueue_style(
-				'so-widgets-bundle',
-				SITEORIGIN_INSTALLER_URL . '/css/admin.css',
+				'siteorigin-installer',
+				SITEORIGIN_INSTALLER_URL . 'css/admin.css',
 				array(),
 				SITEORIGIN_INSTALLER_VERSION
 			);
 
 			wp_enqueue_script(
-				'so-widgets-bundle',
-				SITEORIGIN_INSTALLER_URL . '/js/script.js',
+				'siteorigin-installer',
+				SITEORIGIN_INSTALLER_URL . 'js/script.js',
 				array( 'jquery' ),
 				SITEORIGIN_INSTALLER_VERSION
 			);
 
 			wp_localize_script(
-				'so-widgets-bundle',
+				'siteorigin-installer',
 				'soInstallerAdmin',
 				array(
 					'manageUrl' => wp_nonce_url( admin_url( 'admin-ajax.php?action=siteorigin_installer_manage' ), 'siteorigin-installer-manage' ),
@@ -138,7 +147,19 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 		public function manage_product() {
 			check_ajax_referer( 'siteorigin-installer-manage' );
 
-			if ( empty( $_POST['slug'] ) || empty( $_POST['task'] ) || empty( $_POST['type'] ) || empty( $_POST['version'] ) ) {
+			if (
+				empty( $_POST['slug'] ) ||
+				empty( $_POST['task'] ) ||
+				empty( $_POST['type'] )
+			) {
+				die();
+			}
+
+			// SO Premium won't have a version.
+			if (
+				empty( $_POST['version'] ) &&
+				$_POST['slug'] != 'siteorigin-premium'
+			) {
 				die();
 			}
 
@@ -206,79 +227,85 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 				'version' => true,
 			);
 
+			// Should we remove the premium teaser?
+			if (
+				! apply_filters( 'siteorigin_premium_upgrade_teaser', true ) ||
+				defined( 'SITEORIGIN_PREMIUM_VERSION' )
+			) {
+				unset( $products['siteorigin-premium'] );
+			}
+
 			// $product_data = get_transient( 'siteorigin_installer_product_data' );
 			foreach ( $products as $slug => $item ) {
 				$status = false;
 
-				if ( $slug != 'siteorigin-premium' ) {
-					if ( $item['type'] == 'themes' ) {
-						$api = themes_api(
-							'theme_information',
-							array(
-								'slug' => $slug,
-								'fields' => $fields,
-							)
-						);
+				if ( $item['type'] == 'themes' ) {
+					$api = themes_api(
+						'theme_information',
+						array(
+							'slug' => $slug,
+							'fields' => $fields,
+						)
+					);
 
-						$theme = wp_get_theme( $slug );
+					$theme = wp_get_theme( $slug );
 
-						// Work out the status of the theme.
-						if ( is_object( $theme->errors() ) ) {
-							$status = 'install';
-						} else {
-							$products[ $slug ]['update'] = version_compare( $theme->get( 'Version' ), $api->version, '<' );
-
-							if ( $theme->get_stylesheet() != $current_theme->get_stylesheet() ) {
-								$status = 'activate';
-							}
-						}
-
-						// Theme descriptions are too long so we need to shorten them.
-						$description = explode( '.', $api->sections['description'] );
-						$description = $description[0] . '. ' . $description[1];
+					// Work out the status of the theme.
+					if ( is_object( $theme->errors() ) ) {
+						$status = 'install';
 					} else {
-						$api = plugins_api(
-							'plugin_information',
-							array(
-								'slug' => $slug,
-								'fields' => $fields,
-							)
-						);
+						$products[ $slug ]['update'] = version_compare( $theme->get( 'Version' ), $api->version, '<' );
 
-						// Work out the status of the plugin.
-						$plugin_file = "$slug/$slug.php";
-
-						if ( ! file_exists( WP_PLUGIN_DIR . "/$plugin_file" ) ) {
-							$status = 'install';
-						} elseif ( ! is_plugin_active( $plugin_file ) ) {
+						if ( $theme->get_stylesheet() != $current_theme->get_stylesheet() ) {
 							$status = 'activate';
 						}
-
-						if ( $status != 'install' ) {
-							$plugin = get_plugin_data( WP_PLUGIN_DIR . "/$plugin_file" );
-							$products[ $slug ]['update'] = version_compare( $plugin['Version'], $api->version, '<' );
-						}
-
-						if ( empty( $item['screenshot'] ) ) {
-							$products[ $slug ]['screenshot'] = 'https://plugins.svn.wordpress.org/' . $slug . '/assets/icon.svg';
-						}
 					}
 
-					$products[ $slug ]['status'] = $status;
-					$products[ $slug ]['version'] = $api->version;
-
-					if ( empty( $item['description'] ) ) {
-						$products[ $slug ]['description'] = $item['type'] == 'themes' ? "$description." : $api->short_description;
-					}
-				} elseif (
-					! apply_filters( 'siteorigin_premium_upgrade_teaser', true ) ||
-					defined( 'SITEORIGIN_PREMIUM_VERSION' )
-				) {
-					unset( $products['siteorigin-premium'] );
+					// Theme descriptions are too long so we need to shorten them.
+					$description = explode( '.', $api->sections['description'] );
+					$description = $description[0] . '. ' . $description[1];
 				} else {
-					$products['siteorigin-premium']['screenshot'] = SITEORIGIN_INSTALLER_URL . 'img/premium-icon.svg';
+					$api = plugins_api(
+						'plugin_information',
+						array(
+							'slug' => $slug,
+							'fields' => $fields,
+						)
+					);
+
+					// Work out the status of the plugin.
+					$plugin_file = "$slug/$slug.php";
+
+					if ( ! file_exists( WP_PLUGIN_DIR . "/$plugin_file" ) ) {
+						$status = 'install';
+					} elseif ( ! is_plugin_active( $plugin_file ) ) {
+						$status = 'activate';
+					}
+
+					if ( $status != 'install' ) {
+						$plugin = get_plugin_data( WP_PLUGIN_DIR . "/$plugin_file" );
+						$products[ $slug ]['update'] = ! is_wp_error( $api ) ?
+							version_compare( $plugin['Version'], $api->version, '<' ) :
+							false;
+					}
+
+					if ( empty( $item['screenshot'] ) ) {
+						$products[ $slug ]['screenshot'] = 'https://plugins.svn.wordpress.org/' . $slug . '/assets/icon.svg';
+					}
+				}
+
+				$products[ $slug ]['status'] = $status;
+				$products[ $slug ]['version'] = ! is_wp_error( $api ) ? $api->version : false;
+
+				if ( empty( $item['description'] ) ) {
+					$products[ $slug ]['description'] = $item['type'] == 'themes' ? "$description." : $api->short_description;
 				}
 			}
+
+			if ( isset( $products['siteorigin-premium'] ) ) {
+				$products['siteorigin-premium']['screenshot'] = SITEORIGIN_INSTALLER_URL . 'img/premium-icon.svg';
+			}
+
 			uasort( $products, array( $this, 'sort_compare' ) );
 			set_transient( 'siteorigin_installer_product_data', $products, 43200 );
 

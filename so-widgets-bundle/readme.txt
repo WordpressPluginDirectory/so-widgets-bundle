@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.8
 Requires PHP: 7.0.0
-Stable tag: 1.68.2
-Build time: 2025-05-03T15:59:16+01:00
+Stable tag: 1.69.1
+Build time: 2025-07-05T16:48:21+01:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,42 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.69.1 - 05 July 2025 =
+* Carousel, Post Carousel: Fixed animation speed and timeout to preserve zero values, updated continuous mode defaults, and improved animation speed handling.
+* Features: Fixed link overlay functionality, improved feature link overlay, set feature width and tag prior to template rendering, and switched to semantic friendly list.
+* Icon: Fixed icon rendering issue for sub styles.
+* Multiple Media: Improved frame storage and refresh library after uploading new files.
+* Simple Masonry: Fixed gutter field cascading from desktop to tablet/mobile and refactored gutter logic.
+* Video Player: Added cover support for local external videos.
+* General: Fixed number field sanitization to preserve zero values, renamed accessibility stylesheet to siteorigin-accessibility, added central accessibility stylesheet, improved widget form backup handling, and enhanced widget block functionality.
+
+= 1.69.0 - 12 June 2025 =
+* Hero: Added image alt support for improved accessibility.
+* Layout Slider: Added image alt support and improved background image settings by hiding the settings until a background has been added.
+* Slider: Added image alt support and improved URL handling with validation before setup.
+* Widget Block: Replaced block editor bundle icon with Scalable Vector Graphics (SVG) implementation and updated to use inline SVG for default icon.
+* General: Added new `sow_get_allowed_esc_url_protocols` helper function for enhanced URL protocol handling.
+
+= 1.68.5 - 02 June 2025 =
+* Blog: Fixed JavaScript (JS) and Cascading Style Sheets (CSS) not outputting in Block Editor preview.
+* Blog Portfolio: Fixed sizing issue in Block Editor preview.
+* TinyMCE Form Field: Prevented potential TypeError.
+* Elementor: Improved dark mode styling, resolved misaligned checkbox checkmark placement, and fixed widget JS not being enqueued and preview not being flagged.
+
+= 1.68.4 - 20 May 2025 =
+* Blog Alternate: Fixed mobile spacing issue.
+* Toggle Field: Adjusted toggle text to 11px, decreased size, and aligned toggle switch style and spacing with Page Builder (PB).
+* Widget Block Icons: Refactored icon setup logic to centralize and simplify code, ensuring consistent handling of SVG and image icons.
+* Widget Blocks: Added inline SVG icons.
+* General: Updated Installer submodule.
+
+= 1.68.3 - 11 May 2025 =
+* Image Grid: Added gallery keyword support.
+* Simple Masonry: Fixed preloader visibility, removed incorrect type, and resolved potential TypeError.
+* Slider: Prevented empty overlay issues.
+* Widget Blocks: Fixed icon saving and keyword support.
+* General: Updated Installer submodule and performed bulk PHP CS improvements.
 
 = 1.68.2 - 03 May 2025 =
 * Icon Field: Fixed icon callback support to ensure proper rendering of custom icons.

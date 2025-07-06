@@ -2,7 +2,7 @@
 /*
 Plugin Name: SiteOrigin Widgets Bundle
 Description: A highly customizable collection of widgets, ready to be used anywhere, neatly bundled into a single plugin.
-Version: 1.68.2
+Version: 1.69.1
 Text Domain: so-widgets-bundle
 Domain Path: /lang
 Author: SiteOrigin
@@ -12,7 +12,7 @@ License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 */
 
-define( 'SOW_BUNDLE_VERSION', '1.68.2' );
+define( 'SOW_BUNDLE_VERSION', '1.69.1' );
 define( 'SOW_BUNDLE_BASE_FILE', __FILE__ );
 
 // Allow JS suffix to be pre-set.
@@ -701,6 +701,7 @@ class SiteOrigin_Widgets_Bundle {
 			'VideoURI' => 'Video URI',
 			'Documentation' => 'Documentation',
 			'HideActivate' => 'Hide Activate',
+			'Keywords' => 'Keywords',
 		);
 
 		$widgets = array();
@@ -849,6 +850,13 @@ class SiteOrigin_Widgets_Bundle {
 	}
 
 	public function register_general_scripts() {
+		wp_register_style(
+			'siteorigin-accessibility',
+			plugin_dir_url( SOW_BUNDLE_BASE_FILE ) . 'css/accessibility.css',
+			array(),
+			SOW_BUNDLE_VERSION
+		);
+
 		wp_register_script(
 			'sowb-fittext',
 			plugin_dir_url( SOW_BUNDLE_BASE_FILE ) . 'js/sow.jquery.fittext' . SOW_BUNDLE_JS_SUFFIX . '.js',

@@ -5,6 +5,7 @@ Description: Build an impressive hero image section with custom content, buttons
 Author: SiteOrigin
 Author URI: https://siteorigin.com
 Documentation: https://siteorigin.com/widgets-bundle/hero-image-widget/
+Keywords: background, button, content, image, video
 */
 
 if ( ! class_exists( 'SiteOrigin_Widget_Base_Slider' ) ) {
@@ -119,6 +120,16 @@ class SiteOrigin_Widget_Hero_Widget extends SiteOrigin_Widget_Base_Slider {
 										'has_background_image[show]: val',
 										'has_background_image[hide]: ! val',
 									),
+								),
+							),
+
+							'alt' => array(
+								'type' => 'text',
+								'label' => __( 'Image Alt Text', 'so-widgets-bundle' ),
+								'description' => __( 'Leave empty for decorative images.', 'so-widgets-bundle' ),
+								'state_handler' => array(
+									'has_background_image[show]' => array( 'show' ),
+									'has_background_image[hide]' => array( 'hide' ),
 								),
 							),
 
@@ -394,6 +405,7 @@ class SiteOrigin_Widget_Hero_Widget extends SiteOrigin_Widget_Base_Slider {
 		return array(
 			'color' => ! empty( $frame['background']['color'] ) ? $frame['background']['color'] : false,
 			'image' => ! empty( $background_image[0] ) ? $background_image[0] : false,
+			'image-alt' => ! empty( $frame['background']['alt'] ) ? $frame['background']['alt'] : '',
 			'image-width' => ! empty( $background_image[1] ) ? $background_image[1] : 0,
 			'image-height' => ! empty( $background_image[2] ) ? $background_image[2] : 0,
 			'image-sizing' => $frame['background']['image_type'],
