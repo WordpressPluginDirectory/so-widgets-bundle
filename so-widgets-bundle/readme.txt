@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.8
 Requires PHP: 7.0.0
-Stable tag: 1.69.1
-Build time: 2025-07-05T16:48:21+01:00
+Stable tag: 1.69.3
+Build time: 2025-08-22T12:32:44+01:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,24 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.69.3 - 22 August 2025 =
+* Block Editor: Fixed teaser styling issues.
+* Features: Added link icon support when column is set to be linked.
+* Features: Show more link text when column overlay enabled.
+* Features: Resolved syntax error.
+* Widget Block: Prevented potential widgetClass undefined array key warning.
+* General: Fixed undefined array key warnings in add_defaults method.
+* General: Fixed undefined array key warnings for field properties.
+* General: Fixed undefined array key 'type' warning in add_defaults().
+* General: Fixed undefined array key 'class' warning for widget fields.
+* General: Fixed undefined array key 'fields' warning in enqueue_field_scripts().
+
+= 1.69.2 - 19 July 2025 =
+* Features: Fixed icon disappearing when link overlay enabled and prevented theme margin on list items.
+* General: Added array type validation to get_active_widgets() method.
+* General: Improved widget toolbar with WordPress standard ToolbarGroup and accessibility labels.
+* General: Resolved type mismatch error in add_defaults method caused by Lightbox Addon.
 
 = 1.69.1 - 05 July 2025 =
 * Carousel, Post Carousel: Fixed animation speed and timeout to preserve zero values, updated continuous mode defaults, and improved animation speed handling.

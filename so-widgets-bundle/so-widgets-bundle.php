@@ -2,7 +2,7 @@
 /*
 Plugin Name: SiteOrigin Widgets Bundle
 Description: A highly customizable collection of widgets, ready to be used anywhere, neatly bundled into a single plugin.
-Version: 1.69.1
+Version: 1.69.3
 Text Domain: so-widgets-bundle
 Domain Path: /lang
 Author: SiteOrigin
@@ -12,7 +12,7 @@ License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 */
 
-define( 'SOW_BUNDLE_VERSION', '1.69.1' );
+define( 'SOW_BUNDLE_VERSION', '1.69.3' );
 define( 'SOW_BUNDLE_BASE_FILE', __FILE__ );
 
 // Allow JS suffix to be pre-set.
@@ -250,6 +250,11 @@ class SiteOrigin_Widgets_Bundle {
 
 		if ( empty( $active_widgets ) ) {
 			$active_widgets = get_option( 'siteorigin_widgets_active', array() );
+			
+			if ( ! is_array( $active_widgets ) ) {
+				$active_widgets = array();
+			}
+			
 			$active_widgets = wp_parse_args( $active_widgets, apply_filters( 'siteorigin_widgets_default_active', self::$default_active_widgets ) );
 
 			// Migrate any old names.

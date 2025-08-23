@@ -36,43 +36,43 @@ msgstr ""
 msgid "https://siteorigin.com/widgets-bundle/"
 msgstr ""
 
-#: so-widgets-bundle.php:419, so-widgets-bundle.php:447, so-widgets-bundle.php:461, so-widgets-bundle.php:491, so-widgets-bundle.php:503, so-widgets-bundle.php:570, so-widgets-bundle.php:583, base/base.php:59, base/base.php:63, base/base.php:430, base/base.php:437, base/base.php:442, base/inc/actions.php:11, base/inc/actions.php:102, base/inc/actions.php:219, base/inc/actions.php:264, base/inc/actions.php:276, base/inc/actions.php:280, base/inc/actions.php:374, base/inc/actions.php:378
+#: so-widgets-bundle.php:424, so-widgets-bundle.php:452, so-widgets-bundle.php:466, so-widgets-bundle.php:496, so-widgets-bundle.php:508, so-widgets-bundle.php:575, so-widgets-bundle.php:588, base/base.php:59, base/base.php:63, base/base.php:430, base/base.php:437, base/base.php:442, base/inc/actions.php:11, base/inc/actions.php:102, base/inc/actions.php:219, base/inc/actions.php:264, base/inc/actions.php:276, base/inc/actions.php:280, base/inc/actions.php:374, base/inc/actions.php:378
 msgid "Invalid request."
 msgstr ""
 
-#: so-widgets-bundle.php:423, so-widgets-bundle.php:451, so-widgets-bundle.php:495, base/inc/routes/siteorigin-widgets-resource.class.php:62
+#: so-widgets-bundle.php:428, so-widgets-bundle.php:456, so-widgets-bundle.php:500, base/inc/routes/siteorigin-widgets-resource.class.php:62
 msgid "Insufficient permissions."
 msgstr ""
 
-#: so-widgets-bundle.php:427, so-widgets-bundle.php:577, base/inc/actions.php:23
+#: so-widgets-bundle.php:432, so-widgets-bundle.php:582, base/inc/actions.php:23
 msgid "Invalid post."
 msgstr ""
 
-#: so-widgets-bundle.php:520, so-widgets-bundle.php:521, compat/visual-composer/visual-composer.php:38
+#: so-widgets-bundle.php:525, so-widgets-bundle.php:526, compat/visual-composer/visual-composer.php:38
 msgid "SiteOrigin Widgets"
 msgstr ""
 
-#: so-widgets-bundle.php:546
+#: so-widgets-bundle.php:551
 msgid "%s was %s"
 msgstr ""
 
-#: so-widgets-bundle.php:548
+#: so-widgets-bundle.php:553
 msgid "Activated"
 msgstr ""
 
-#: so-widgets-bundle.php:548
+#: so-widgets-bundle.php:553
 msgid "Deactivated"
 msgstr ""
 
-#: so-widgets-bundle.php:842
+#: so-widgets-bundle.php:847
 msgid "Manage Widgets"
 msgstr ""
 
-#: so-widgets-bundle.php:843
+#: so-widgets-bundle.php:848
 msgid "Support"
 msgstr ""
 
-#: so-widgets-bundle.php:846
+#: so-widgets-bundle.php:851
 msgid "Addons"
 msgstr ""
 
@@ -80,55 +80,55 @@ msgstr ""
 msgid "(No Title)"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:554
+#: base/siteorigin-widget.class.php:567
 msgid "Preview"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:561
+#: base/siteorigin-widget.class.php:574
 msgid "Help"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:644
+#: base/siteorigin-widget.class.php:657
 msgid "This widget has scripts and styles that need to be loaded before you can use it. Please save and reload your current page."
 msgstr ""
 
-#: base/siteorigin-widget.class.php:647
+#: base/siteorigin-widget.class.php:660
 msgid "You will only need to do this once."
 msgstr ""
 
-#: base/siteorigin-widget.class.php:677
+#: base/siteorigin-widget.class.php:690
 msgid "Are you sure?"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:678
+#: base/siteorigin-widget.class.php:691
 msgid "You have empty required fields. Are you sure you wish to continue?"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:680
+#: base/siteorigin-widget.class.php:693
 msgid "Table Header"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:681
+#: base/siteorigin-widget.class.php:694
 msgid "Actions"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:685
+#: base/siteorigin-widget.class.php:698
 msgid "There is a newer version of this widget's content available."
 msgstr ""
 
-#: base/siteorigin-widget.class.php:686, base/siteorigin-widget.class.php:690
+#: base/siteorigin-widget.class.php:699, base/siteorigin-widget.class.php:703
 msgid "Restore"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:687
+#: base/siteorigin-widget.class.php:700
 msgid "Dismiss"
 msgstr ""
 
-#: base/siteorigin-widget.class.php:689
+#: base/siteorigin-widget.class.php:702
 msgid "Clicking %s will replace the current widget contents. You can revert by refreshing the page before updating."
 msgstr ""
 
-#: base/siteorigin-widget.class.php:753
+#: base/siteorigin-widget.class.php:766
 msgid "Widget Preview"
 msgstr ""
 
@@ -272,15 +272,15 @@ msgstr ""
 msgid "Invalid widget class%s. Please make sure the widget has been activated in %sSiteOrigin Widgets%s."
 msgstr ""
 
-#: compat/block-editor/widget-block.php:469
+#: compat/block-editor/widget-block.php:488
 msgid "You need to select a widget type before you'll see anything here. :)"
 msgstr ""
 
-#: compat/block-editor/widget-block.php:546
+#: compat/block-editor/widget-block.php:565
 msgid "No widget preview available."
 msgstr ""
 
-#: compat/block-editor/widget-block.php:651
+#: compat/block-editor/widget-block.php:670
 msgid "Invalid Widgets Bundle data"
 msgstr ""
 
@@ -516,7 +516,7 @@ msgstr ""
 msgid "SiteOrigin Author Box"
 msgstr ""
 
-#: widgets/author-box/author-box.php:32, widgets/blog/blog.php:644, widgets/button/button.php:31, widgets/button-grid/button-grid.php:51, widgets/contact/contact.php:1175, widgets/cta/cta.php:64, widgets/features/features.php:495, widgets/headline/headline.php:36, widgets/image/image.php:31, widgets/recent-posts/recent-posts.php:48, widgets/social-media-buttons/social-media-buttons.php:32, base/inc/widgets/base-slider.class.php:250
+#: widgets/author-box/author-box.php:32, widgets/blog/blog.php:644, widgets/button/button.php:31, widgets/button-grid/button-grid.php:51, widgets/contact/contact.php:1175, widgets/cta/cta.php:64, widgets/features/features.php:491, widgets/headline/headline.php:36, widgets/image/image.php:31, widgets/recent-posts/recent-posts.php:48, widgets/social-media-buttons/social-media-buttons.php:32, base/inc/widgets/base-slider.class.php:250
 msgid "Responsive Breakpoint"
 msgstr ""
 
@@ -1922,23 +1922,23 @@ msgstr ""
 msgid "Link icon to more URL"
 msgstr ""
 
-#: widgets/features/features.php:340
+#: widgets/features/features.php:336
 msgid "Link feature column to more URL"
 msgstr ""
 
-#: widgets/features/features.php:352
+#: widgets/features/features.php:348
 msgid "Open more URL in a new window"
 msgstr ""
 
-#: widgets/features/features.php:497
+#: widgets/features/features.php:493
 msgid "This setting controls when the features widget will collapse for mobile devices. The default value is 780px"
 msgstr ""
 
-#: widgets/features/features.php:509
+#: widgets/features/features.php:505
 msgid "Add an feature icon title tooltip with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/features/features.php:514
+#: widgets/features/features.php:510
 msgid "Use Google Fonts right inside the Features Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
