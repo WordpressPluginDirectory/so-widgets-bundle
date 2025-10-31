@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 6.8
 Requires PHP: 7.0.0
-Stable tag: 1.69.3
-Build time: 2025-08-22T12:32:44+01:00
+Stable tag: 1.70.0
+Build time: 2025-10-31T08:10:18+00:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,20 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.70.0 - 31 October 2025 =
+* Blog: Resolved potential date output format fatal error, debounced post count update, and optimized post selector count function.
+* Features: Fixed icon alignment with bottom aligned more link and refined right/left alignment for bottom aligned features.
+* Portfolio: Limited blog filter categories control to portfolio by default.
+* Video Player: Added siteorigin_widgets_sow-video_local_video_args filter and sandbox attribute.
+* General: Added extensive Site Editor support including improvements for form fields, asset cloning, and JavaScript Object Notation (JSON) handling.
+* General: Fixed TypeError when widget instance is JSON string in Representational State Transfer Application Programming Interface (REST API) context.
+* General: Migrated build tooling to Gulp 5.
+* General: Improved Select2 handling to prevent conflicts.
+* General: Replaced usage of WP_CONTENT_DIR.
+* General: Improved widget timestamp handling using microtime and ensured timestamp is set when saving widgets.
+* General: Adjusted field backup change detection to prevent incorrect flags and excluded builder_id from comparison.
+* General: Fixed Widget Block blockName check and ensured valid block names before registering.
 
 = 1.69.3 - 22 August 2025 =
 * Block Editor: Fixed teaser styling issues.
