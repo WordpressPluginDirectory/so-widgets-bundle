@@ -2,7 +2,7 @@
 /*
 Plugin Name: SiteOrigin Widgets Bundle
 Description: A highly customizable collection of widgets, ready to be used anywhere, neatly bundled into a single plugin.
-Version: 1.70.0
+Version: 1.71.0
 Text Domain: so-widgets-bundle
 Domain Path: /lang
 Author: SiteOrigin
@@ -12,7 +12,7 @@ License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 */
 
-define( 'SOW_BUNDLE_VERSION', '1.70.0' );
+define( 'SOW_BUNDLE_VERSION', '1.71.0' );
 define( 'SOW_BUNDLE_BASE_FILE', __FILE__ );
 
 // Allow JS suffix to be pre-set.
@@ -582,10 +582,7 @@ class SiteOrigin_Widgets_Bundle {
 	 * Get JavaScript variables for admin.
 	 */
 	public function admin_ajax_get_javascript_variables() {
-		if ( empty( $_REQUEST['_widgets_nonce'] ) ||
-			! wp_verify_nonce( $_REQUEST['_widgets_nonce'], 'widgets_action' ) ) {
-			wp_die( __( 'Invalid request.', 'so-widgets-bundle' ), 403 );
-		}
+		siteorigin_verify_request_permissions();
 
 		$widget_class = $_POST['widget'];
 		global $wp_widget_factory;
@@ -903,6 +900,16 @@ class SiteOrigin_Widgets_Bundle {
 			plugin_dir_url( SOW_BUNDLE_BASE_FILE ) . 'js/sow.google-map' . SOW_BUNDLE_JS_SUFFIX . '.js',
 			array( 'jquery' ),
 			SOW_BUNDLE_VERSION
+		);
+
+		wp_localize_script(
+			'sow-google-map',
+			'soWidgetsGoogleMap',
+			array(
+				'geocode' => array(
+					'noResults' => __( 'There were no results for the place you entered. Please try another.', 'so-widgets-bundle' ),
+				),
+			)
 		);
 
 		wp_register_script(

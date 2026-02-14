@@ -1110,7 +1110,7 @@ var sowbForms = window.sowbForms || {};
 							$this.trigger( 'slideToggleOpenComplete' );
 
 							const $fields = $this.find(
-								'.siteorigin-widget-field-type-section > .siteorigin-widget-section > .siteorigin-widget-field, > .siteorigin-widget-field'
+								'.siteorigin-widget-field-type-section > .siteorigin-widget-section > .siteorigin-widget-field, .siteorigin-widget-field'
 							);
 
 							const visibleFields = $fields.filter( function() {
@@ -1178,6 +1178,11 @@ var sowbForms = window.sowbForms || {};
 						var $copyItem = $item.clone();
 						var $nextIndex = $items.children().length;
 						var newIds = {};
+
+						// Reset initialization flags so field setup runs for the cloned item.
+						$copyItem
+							.find( '.siteorigin-widget-field[data-initialized]' )
+							.removeAttr( 'data-initialized' );
 
 						$copyItem.find( '*[name]' ).each(function () {
 							var $inputElement = $( this );

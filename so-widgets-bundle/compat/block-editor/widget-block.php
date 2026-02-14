@@ -212,7 +212,7 @@ class SiteOrigin_Widgets_Bundle_Widget_Block {
 				$description = __( 'No description available.', 'so-widgets-bundle' );
 			}
 
-			$block_name = strtolower( str_replace( '_', '-', $class ) );
+			$block_name = strtolower( str_replace( ['_', '\\'], '-', $class ) );
 
 			// For SiteOrigin authored widgets, display the widget's name directly. For third-party widgets, append the author's name to the widget name to avoid confusion when multiple widgets have the same name.
 			if (
@@ -252,8 +252,21 @@ class SiteOrigin_Widgets_Bundle_Widget_Block {
 		$this->so_widgets = array_merge( $so_widgets, $third_party_widgets );
 	}
 
+	/**
+	 * Enqueue block editor assets for SiteOrigin Widget Blocks.
+	 *
+	 * This method enqueues the necessary scripts and styles for the block editor.
+	 * It also localizes widget data for use in the editor.
+	 */
 	public function enqueue_widget_block_editor_assets() {
 		$current_screen = function_exists( 'get_current_screen' ) ? get_current_screen() : false;
+
+		if (
+			empty( $current_screen ) ||
+			! in_array( $current_screen->base, array( 'post', 'site-editor', 'widgets' ) )
+		) {
+			return;
+		}
 
 		wp_enqueue_script(
 			'sowb-register-widget-blocks',
@@ -689,8 +702,8 @@ class SiteOrigin_Widgets_Bundle_Widget_Block {
 	}
 
 	public function get_widget_preview( $block, $just_html = true ) {
-		$widget_class = $block['widgetClass'];
-		$widget_data = $block['widgetData'];
+		$widget_class = empty( $block['widgetClass'] ) ? '' : $block['widgetClass'];
+		$widget_data = empty( $block['widgetData'] ) ? array() : $block['widgetData'];
 
 		$widget = SiteOrigin_Widgets_Widget_Manager::get_widget_instance( $widget_class );
 		// Attempt to activate the widget if it's not already active.
