@@ -36,6 +36,19 @@ class SiteOrigin_Widget_Field_Radio extends SiteOrigin_Widget_Field_Base {
 	}
 
 	protected function sanitize_field_input( $value, $instance ) {
+		// When the options registry didn't populate this request, don't reset
+		// the stored value to default.
+		if ( empty( $this->options ) ) {
+			// See select.class.php::sanitize_field_input() for full reasoning
+			// (same registry-empty gap, same fix). Radio values are always
+			// scalar (single selection).
+			if ( $value === $this->old_value ) {
+				return $value;
+			}
+
+			return sanitize_text_field( $value );
+		}
+
 		$sanitized_value = $value;
 		$keys = array_keys( $this->options );
 
