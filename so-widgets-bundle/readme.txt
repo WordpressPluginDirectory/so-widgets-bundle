@@ -3,8 +3,8 @@ Tags: widgets, blocks, contact form, blog, slider
 Requires at least: 4.2
 Tested up to: 7.0
 Requires PHP: 7.0.0
-Stable tag: 1.74.1
-Build time: 2026-07-17T11:47:21+01:00
+Stable tag: 1.74.2
+Build time: 2026-07-24T11:28:37+01:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -108,6 +108,11 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.74.2 - 23 July 2026 =
+* Post Carousel: Fixed thumbnails collapsing when the Full image size was selected by falling back to the default box dimensions.
+* General: Fixed widget content being lost when saving in the Block Editor while the visual editor had not finished initializing.
+* General: Preserved a measurement field's unit on re-save when the field's default value already carried a unit.
 
 = 1.74.1 - 17 July 2026 =
 * Hero, Layout Slider: Fixed empty or zero mobile height so the slide inherits the desktop height instead of collapsing.
